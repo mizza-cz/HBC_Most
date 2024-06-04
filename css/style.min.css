@@ -7079,7 +7079,7 @@ table {
   background: transparent;
 }
 #nav-menu .hoverfx {
-  color: #002c5a;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   font-weight: 700;
@@ -7438,7 +7438,7 @@ table {
   }
 }
 #articles {
-  background: #f9e526;
+  background: #ff8c00;
 }
 #articles .article {
   padding: 0;
@@ -7452,7 +7452,7 @@ table {
   transition: 300ms;
 }
 #articles .article a .info {
-  background: #f9e526;
+  background: #ff8c00;
   padding: 18px 15px 15px 15px;
   position: relative;
   bottom: 0;
@@ -7484,7 +7484,7 @@ table {
   -ms-filter: brightness(70%);
 }
 #articles .article a:hover .info {
-  background: #eed835;
+  background: #ff8c00;
 }
 @media (max-width: 768px) {
   .player-info-table tr td {
@@ -8234,7 +8234,7 @@ same colums height fix
   }
 }
 #footer-menu {
-  background: #f9e526;
+  background: #ff8c00;
   padding-top: 25px;
   padding-bottom: 15px;
 }
@@ -8482,7 +8482,7 @@ pre {
 }
 
 .nav-yellow {
-  background: #f9e526;
+  background: #195bc0;
 }
 
 .cover_main table.cover_table tr td img {
