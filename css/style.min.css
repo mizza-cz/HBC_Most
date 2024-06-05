@@ -7330,12 +7330,15 @@ table {
   margin-bottom: 15px;
 }
 #index-matches .match .info .score {
-  color: #002c5a;
+  color: #ff8c00;
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   font-weight: 700;
   display: table-cell;
   vertical-align: middle;
+}
+#index-matches .match .info .score a {
+  color: #ff8c00 !important;
 }
 #index-matches .owl-item {
   border-right: 1px solid #d0d4d7;
@@ -7484,7 +7487,7 @@ table {
   -ms-filter: brightness(70%);
 }
 #articles .article a:hover .info {
-  background: #ff8c00;
+  background: #195bc0;
 }
 @media (max-width: 768px) {
   .player-info-table tr td {
@@ -7851,7 +7854,7 @@ table {
 }
 #article .text .inner .match-info .info .score {
   font-family: 'Montserrat', sans-serif;
-  color: #002c5a;
+  color: #ff8c00;
   font-size: 48px;
   font-weight: 700;
   width: 95%;
@@ -7860,7 +7863,7 @@ table {
   padding: 25px;
 }
 #article .text .inner .match-info .info .score .periods {
-  color: #002c5a;
+  color: #ff8c00;
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -7881,7 +7884,7 @@ table {
 }
 #article .text .inner .match-info .more-info {
   text-align: left;
-  color: #002c5a;
+  color: #ff8c00;
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
