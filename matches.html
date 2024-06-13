@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen, projection" />
+  </head>
+  <body>
+    <div class="container hidden-sm" id="nav-logo">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="navbar-brand-centered">
+            <a href="index.asp"><img src="images/logo.svg" id="logo_fixed" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-white hidden-xs">
+      <div class="container" id="nav-top">
+        <div class="row">
+          <div class="col-sm-6 logo">
+            <a class="logoTitle" href="index.asp">
+              <p>Oficiální web klubu</p>
+              HBC Most
+            </a>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-md-7 soc-icons">
+              <ul>
+                <li class="fb">
+                  <a
+                    href="https://www.facebook.com/pages/HBC-Hostiva%C5%99/39809923574"
+                    target="_blank"
+                  ></a>
+                </li>
+                <!-- <li class="tw"><a href="https://twitter.com/HBCHostivar" target="_blank"></a></li> -->
+                <li class="yt">
+                  <a
+                    href="https://www.youtube.com/user/hokejbalhostivar?feature=mhee"
+                    target="_blank"
+                  ></a>
+                </li>
+                <li class="ra">
+                  <a href="http://hbc-hostivar.rajce.idnes.cz/" target="_blank"></a>
+                </li>
+                <li class="in">
+                  <a href="https://instagram.com/hbchostivar/" target="_blank"></a>
+                </li>
+                <!-- <li class="gp"><a href="https://plus.google.com/+hokejbalhostivar" target="_blank"></a></li> -->
+              </ul>
+            </div>
+            <div class="col-md-4 search">
+              <form action="search.asp" id="cse-search-box" accept-charset="utf-8">
+                <input type="text" class="search" id="search_input" name="q" value="" />
+                <input type="submit" name="sa" id="sa" value="" />
+              </form>
+            </div>
+            <div class="col-md-1 hidden-xm" style="padding: 0">
+              <a
+                href="http://doc.hokejbal.cz/km/2016/eticky_kodex_cmshb_-_graficka_verze.pdf"
+                target="_blank"
+                ><img src="images/logo_hcm.jpg" style="width: 50px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-yellow" id="fixmenu">
+      <nav class="navbar navbar-menu" id="nav-menu">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Klub</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=o-nas">O nás</a></li>
+                  <li><a href="zobraz.asp?t=domaci-areal">Domácí areál</a></li>
+                  <li><a href="zobraz.asp?t=kontakty">Kontakty</a></li>
+                  <li><a href="zobraz.asp?t=treninky">Tréninky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tymy">Realizační týmy</a></li>
+                  <li><a href="partneri.asp">Partneři</a></li>
+                  <li><a href="zobraz.asp?t=ke-stazeni">Ke stažení</a></li>
+                  <li><a href="zobraz.asp?t=brigady-a-zamestnani">Brigády a zaměstnání</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Muži-A</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=MUZ">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                  <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=MUZ">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Muži-B</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?sezona=2024&kategorie=MUZB">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZB&kategorie=MUZB">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZB&kategorie=MUZB">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024MUZB&kategorie=MUZB">Tabulka</a></li>
+                  <li><a href="statistiky.asp?sezona=2024MUZB&kategorie=MUZB">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-MUZB">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Junioři</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=JUN">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024JUN&kategorie=JUN">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024JUN&kategorie=JUN">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024JUN&kategorie=JUN">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=JUN">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-JUN">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Dorost</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=DOR">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024DOR&kategorie=DOR">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024DOR&kategorie=DOR">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024DOR&kategorie=DOR">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=DOR">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-DOR">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Mládež</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=SZA">Starší žáci</a></li>
+                  <li><a href="druzstva.asp?kategorie=MZA">Mladší žáci</a></li>
+                  <li><a href="druzstva.asp?kategorie=MZAB">Mladší žáci B</a></li>
+                  <li><a href="druzstva.asp?kategorie=PRIP">Přípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=MPRIP">Minipřípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=MKPRIP">Mikropřípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=ZMPRIP">Přípravka - dívky</a></li>
+                  <li><a href="zobraz.asp?t=nabor">Nábor</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Nábory</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=pridej-se">Přidej se k nám</a></li>
+                  <li><a href="zobraz.asp?t=sportovni-hry">Sportovní hry 4-6 let</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Fanzone</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/pages/HBC-Hostiva%C5%99/39809923574"
+                      target="_blank"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li><a href="https://twitter.com/HBCHostivar" target="_blank">Twitter</a></li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/user/hokejbalhostivar?feature=mhee"
+                      target="_blank"
+                      >Youtube</a
+                    >
+                  </li>
+                  <li><a href="http://hbc-hostivar.rajce.idnes.cz/" target="_blank">Rajče</a></li>
+                  <li><a href="http://instagram.com/hbchostivar" target="_blank">Instagram</a></li>
+                  <li><a href="zobraz.asp?t=wallpapery">Wallpapery</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Pořádáme</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=HBCH-Junior-Camp">HBCH Junior Camp</a></li>
+                  <li><a href="zobraz.asp?t=primestsky-kemp">Příměstské kempy</a></li>
+                  <li><a href="zobraz.asp?t=Kempy-pro-deti">Specializované kempy</a></li>
+                  <li><a href="zobraz.asp?t=skoleni-a-workshopy">Školení a workshopy</a></li>
+                  <li><a href="https://www.faircup.cz" target="_blank">Fair cup</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Jsme životní styl</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=vitejte-v-hostivari">Vítejte v Mosti</a></li>
+                  <li><a href="zobraz.asp?t=klubova-oceneni">Klubová ocenění</a></li>
+                  <!-- <li><a href="zobraz.asp?t=podporte-hostivar">Podpořte Most</a></li> -->
+                  <li><a href="zobraz.asp?t=dulezite-terminy">Důležité termíny</a></li>
+                  <!-- <li><a href="zobraz.asp?t=objednavky">Objednávky</a></li> -->
+                  <li><a href="zobraz.asp?t=Obleceni-a-doplnky">Oblečení a doplňky</a></li>
+                  <!-- <li><a href="zobraz.asp?t=hostik-mesice">Hostík měsíce</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div>
+
+    <div class="container" id="article">
+      <div class="row">
+        <div class="col-md-8 text">
+          <div class="col-md sidebar smallMenu">
+            <div class="box box-other">
+              <h2 class="title">Muži A</h2>
+              <div class="inner">
+                <ul class="more-articles">
+                  <li><a href="druzstva.asp?sezona=2024&kategorie=MUZ">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                  <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                  <li><a href="statistiky.asp?sezona=2024MUZ&kategorie=MUZ">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                  <li><a href="zobraz.asp?t=historie-umisteni">Historie umístění</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- hlavni text -->
+
+          <div class="inner">
+            <h1><span>Zápasy - </span> Extraliga mužů 2023/2024</h1>
+            <!--<div class="menicko">
+    <strong>2014/15:</strong> 
+    <a href="zapas.asp?sezona=2015">Extraliga</a> | 
+    <a href="zapas.asp?sezona=2015zima" title="Zápasy - zimní příprava 2015">Příprava - zima</a> | 
+    <a href="zapas.asp?sezona=2015PCH" title="Zápasy - Pilsen Challenge">Pilsen Challenge</a> | 
+    <a href="zapas.asp?sezona=2015leto" title="Zápasy - letní příprava 2014">Příprava - léto</a> <br />
+    
+    <strong>2013/14:</strong> 
+    <a href="zapas.asp?sezona=2014">Extraliga</a> | 
+    <a href="zapas.asp?sezona=2014zima" title="Zápasy - zimní příprava 2014">Příprava - zima</a> | 
+    <a href="zapas.asp?sezona=2014PCH" title="Zápasy - Pilsen Challenge">Pilsen Challenge</a> | 
+    <a href="zapas.asp?sezona=2014leto" title="Zápasy - letní příprava 2013">Příprava - léto</a> <br />
+    
+    <strong>2012/13:</strong> 
+    <a href="zapas.asp?sezona=2013"> Extraliga</a> | 
+    <a href="zapas.asp?sezona=2013DSHB" title="Zápasy - DSHB Liga 2013">DSHB Liga 2013</a> | 
+    <a href="zapas.asp?sezona=2013zima" title="Zápasy - zimní příprava 2013">Příprava - zima</a> | 
+    <a href="zapas.asp?sezona=2013PCH" title="Zápasy - Pilsen Challenge">Pilsen Challenge</a> | 
+    <a href="zapas.asp?sezona=2013leto" title="Zápasy - letní příprava 2013">Příprava - léto</a> <br />
+    
+    <strong>2011/12:</strong> 
+    <a href="zapas.asp?sezona=2012"> Extraliga</a> | 
+    <a href="zapas.asp?sezona=2012CP" title="Český pohár">Český pohár</a> | 
+    <a href="zapas.asp?sezona=2012leto" title="Zápasy - letní příprava 2012">Příprava - léto</a>
+     <br />
+    
+    <strong>2010/11:</strong> 
+    <a href="zapas.asp?sezona=2011"> Extraliga</a> | 
+    <a href="zapas.asp?sezona=2011zima" title="Zápasy - zimní příprava 2011">Příprava - zima</a> | 
+    <a href="zapas.asp?sezona=2011CP" title="Český pohár">Český pohár</a> | 
+    
+    <a href="zapas.asp?sezona=2011leto" title="Zápasy - letní příprava 2010">Příprava - léto</a>
+    <!-- <a href="zapas.asp?sezona=2011PC" title="Zápasy - Pilsen Cup 2011">Pilsen Cup</a> | 
+    
+    <br />
+    
+    <strong>2009/10:</strong> 
+    <a href="zapas.asp?sezona=2010"> Extraliga</a> | 
+    <a href="zapas.asp?sezona=2010zima" title="Zápasy - zimní příprava 2010">Příprava - zima</a> | 
+    <a href="zapas.asp?sezona=2010PC" title="Zápasy - Pilsen Cup 2010">Pilsen Cup</a> | 
+    <a href="zapas.asp?sezona=2010CP" title="Český pohár">Český pohár</a>
+    
+    </div>-->
+            <div class="menicko center">
+              <strong>Zobrazení:</strong>
+              <a href="zapas.asp?stats=false&amp;sezona=2024MUZ&amp;kde=">jen výsledky</a>
+              | <a href="zapas.asp?stats=true&amp;sezona=2024MUZ&amp;kde=">statistiky</a> |
+              <a href="zapas.asp?stats=&amp;sezona=2024MUZ&amp;kde=doma">pouze doma</a> |
+              <a href="zapas.asp?stats=&amp;sezona=2024MUZ&amp;kde=venku">pouze venku</a> |
+              <a href="zapas.asp?stats=&amp;sezona=2024MUZ&amp;kde=vsechno">vše</a>
+            </div>
+
+            <table id="zapasVypis" cellspacing="0" class="nice" cellpadding="0">
+              <tr>
+                <th class="kola">kolo</th>
+                <th class="datum">datum</th>
+                <th class="domaci">domácí</th>
+                <th class="hoste">hosté</th>
+                <th class="vysledek">&nbsp;</th>
+                <th class="tretiny">&nbsp;</th>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-v-prvni-priprave-na-novou-sezónu-porazil-Dobrany---1560'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1560')"
+                onmouseout="ZmenTridu('doma','zapas_1560')"
+                id="zapas_1560"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>Příp.</td>
+                <td class="nowrap">po 21.8.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Dobřany</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-v-prvni-priprave-na-novou-sezónu-porazil-Dobrany---1560"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Dobřany 7:4"
+                    >7:4</a
+                  >
+                </td>
+                <td><span class="small">(4:2, 3:1, 0:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-v-semifinale-Ceskeho-poharu-porazil-Blatnou-a-v-nedeli-si-zahraje-finale--1561'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1561')"
+                onmouseout="ZmenTridu('venku','zapas_1561')"
+                id="zapas_1561"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>SFČP</td>
+                <td class="nowrap">so 2.9.</td>
+                <td class="bold">&nbsp;Blatná</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-v-semifinale-Ceskeho-poharu-porazil-Blatnou-a-v-nedeli-si-zahraje-finale--1561"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Blatná - Hostivař 2:7"
+                    >2:7</a
+                  >
+                </td>
+                <td><span class="small">(2:2, 0:1, 0:4)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-je-vitezem-Ceskeho-poharu--Ve-finale-porazil-Svitkov-v-prodlouzeni--1627'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1627')"
+                onmouseout="ZmenTridu('venku','zapas_1627')"
+                id="zapas_1627"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>FNČP</td>
+                <td class="nowrap">ne 3.9.</td>
+                <td class="bold">&nbsp;Svítkov Stars</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-je-vitezem-Ceskeho-poharu--Ve-finale-porazil-Svitkov-v-prodlouzeni--1627"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Svítkov Stars - Hostivař 3:4p"
+                    >3:4p</a
+                  >
+                </td>
+                <td><span class="small">(2:0, 1:2, 0:1 - 0:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-vstoupil-do-sezóny-vitezne--Doma-jasnym-vysledkem-prehral-Plzen--1562'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1562')"
+                onmouseout="ZmenTridu('doma','zapas_1562')"
+                id="zapas_1562"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>2.</td>
+                <td class="nowrap">so 9.9.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Plzeň</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-vstoupil-do-sezóny-vitezne--Doma-jasnym-vysledkem-prehral-Plzen--1562"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Plzeň 5:0"
+                    >5:0</a
+                  >
+                </td>
+                <td><span class="small">(2:0, 3:0, 0:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-i-nadale-vitezny--V-prvnim-venkovnim-utkani-porazil-Usti-nad-Labem--1563'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1563')"
+                onmouseout="ZmenTridu('venku','zapas_1563')"
+                id="zapas_1563"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>3.</td>
+                <td class="nowrap">so 16.9.</td>
+                <td class="bold">&nbsp;Ústí n. Labem</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-i-nadale-vitezny--V-prvnim-venkovnim-utkani-porazil-Usti-nad-Labem--1563"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Ústí n. Labem - Hostivař 2:4"
+                    >2:4</a
+                  >
+                </td>
+                <td><span class="small">(0:2, 1:1, 1:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-zaznamenal-treti-vitezstvi-v-rade--V-Prazskem-derby-deklasoval-mistrovsky-Kert-Park--1564'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1564')"
+                onmouseout="ZmenTridu('venku','zapas_1564')"
+                id="zapas_1564"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>4.</td>
+                <td class="nowrap">so 23.9.</td>
+                <td class="bold">&nbsp;Kert Park Praha</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-zaznamenal-treti-vitezstvi-v-rade--V-Prazskem-derby-deklasoval-mistrovsky-Kert-Park--1564"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Kert Park Praha - Hostivař 1:7"
+                    >1:7</a
+                  >
+                </td>
+                <td><span class="small">(0:2, 0:3, 1:2)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-doma-prehral-lonskeho-vicemistra--Proti-Letohradu-zaznamenal-ctvrtou-vyhru-v-rade--1565'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1565')"
+                onmouseout="ZmenTridu('doma','zapas_1565')"
+                id="zapas_1565"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>5.</td>
+                <td class="nowrap">čt 28.9.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Letohrad</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-doma-prehral-lonskeho-vicemistra--Proti-Letohradu-zaznamenal-ctvrtou-vyhru-v-rade--1565"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Letohrad 5:2"
+                    >5:2</a
+                  >
+                </td>
+                <td><span class="small">(1:1, 1:1, 3:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-uspel-i-v-Pardubicich-a-dale-vladne-CROSSDOCK-Extralize--1566'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1566')"
+                onmouseout="ZmenTridu('venku','zapas_1566')"
+                id="zapas_1566"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>6.</td>
+                <td class="nowrap">so 30.9.</td>
+                <td class="bold">&nbsp;Pardubice</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-uspel-i-v-Pardubicich-a-dale-vladne-CROSSDOCK-Extralize--1566"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Pardubice - Hostivař 3:6"
+                    >3:6</a
+                  >
+                </td>
+                <td><span class="small">(0:1, 2:1, 1:4)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-zaznamenal-sestou-extraligovou-vyhru-v-rade--Doma-si-poradil-s-Dobrany--1567'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1567')"
+                onmouseout="ZmenTridu('doma','zapas_1567')"
+                id="zapas_1567"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>7.</td>
+                <td class="nowrap">so 7.10.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Dobřany</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-zaznamenal-sestou-extraligovou-vyhru-v-rade--Doma-si-poradil-s-Dobrany--1567"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Dobřany 5:0"
+                    >5:0</a
+                  >
+                </td>
+                <td><span class="small">(1:0, 1:0, 3:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tymu-skoncila-vitezna-snura--Recept-na-dosud-neporazenou-Hostivar-naslo-Kladno--1568'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1568')"
+                onmouseout="ZmenTridu('venku','zapas_1568')"
+                id="zapas_1568"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>1.</td>
+                <td class="nowrap">ne 8.10.</td>
+                <td class="bold">&nbsp;Kladno</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tymu-skoncila-vitezna-snura--Recept-na-dosud-neporazenou-Hostivar-naslo-Kladno--1568"
+                    class="prohra"
+                    title="Přejít na podrobnosti o utkání: Kladno - Hostivař 4:2"
+                    >4:2</a
+                  >
+                </td>
+                <td><span class="small">(0:0, 2:1, 2:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=Hostivarsky-A-tym-opet-vitezny--Ve-venkovnim-utkani-porazil--Prachatice--1569'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1569')"
+                onmouseout="ZmenTridu('venku','zapas_1569')"
+                id="zapas_1569"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>8.</td>
+                <td class="nowrap">so 14.10.</td>
+                <td class="bold">&nbsp;Prachatice</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=Hostivarsky-A-tym-opet-vitezny--Ve-venkovnim-utkani-porazil--Prachatice--1569"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Prachatice - Hostivař 3:5"
+                    >3:5</a
+                  >
+                </td>
+                <td><span class="small">(0:2, 1:3, 2:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-pokracuje-ve-sve-extraligove-krasojizde--Tentokrat-v-domacim-utkani-prehral-Karvinou--1570'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1570')"
+                onmouseout="ZmenTridu('doma','zapas_1570')"
+                id="zapas_1570"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>9.</td>
+                <td class="nowrap">so 21.10.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Karviná</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-pokracuje-ve-sve-extraligove-krasojizde--Tentokrat-v-domacim-utkani-prehral-Karvinou--1570"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Karviná 6:3"
+                    >6:3</a
+                  >
+                </td>
+                <td><span class="small">(2:1, 3:1, 1:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=Urbanec-ridil-postup-A-tymu-do-dalsiho-kola-Ceskeho-poharu--1674'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1674')"
+                onmouseout="ZmenTridu('venku','zapas_1674')"
+                id="zapas_1674"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>ČP2</td>
+                <td class="nowrap">čt 26.10.</td>
+                <td class="bold">&nbsp;Kovo Praha</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=Urbanec-ridil-postup-A-tymu-do-dalsiho-kola-Ceskeho-poharu--1674"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Kovo Praha - Hostivař 3:8"
+                    >3:8</a
+                  >
+                </td>
+                <td><span class="small">(2:2, 1:2, 0:4)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=Junior-Lehner-ovladl-duel-s-Piraty--Na-dalsi-vyhre-A-tymu-se-podilel-ctyrmi-góly--1571'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1571')"
+                onmouseout="ZmenTridu('venku','zapas_1571')"
+                id="zapas_1571"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>10.</td>
+                <td class="nowrap">so 4.11.</td>
+                <td class="bold">&nbsp;Hradec Králové</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=Junior-Lehner-ovladl-duel-s-Piraty--Na-dalsi-vyhre-A-tymu-se-podilel-ctyrmi-góly--1571"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hradec Králové - Hostivař 4:6"
+                    >4:6</a
+                  >
+                </td>
+                <td><span class="small">(1:2, 1:2, 2:2)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=Slagr-kola-pro-Hostivar--A-tym-si-doma-poradil-s-Pardubickym-Svitkovem--1572'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1572')"
+                onmouseout="ZmenTridu('doma','zapas_1572')"
+                id="zapas_1572"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>11.</td>
+                <td class="nowrap">so 11.11.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Svítkov Stars</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=Slagr-kola-pro-Hostivar--A-tym-si-doma-poradil-s-Pardubickym-Svitkovem--1572"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Svítkov Stars 5:3"
+                    >5:3</a
+                  >
+                </td>
+                <td><span class="small">(3:1, 0:1, 2:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-dokonale-otocil-duel-s-Kladnem-a-oplatil-tak-Rysum-dosud-jedinou-porazku--1573'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1573')"
+                onmouseout="ZmenTridu('doma','zapas_1573')"
+                id="zapas_1573"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>12.</td>
+                <td class="nowrap">so 18.11.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Kladno</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-dokonale-otocil-duel-s-Kladnem-a-oplatil-tak-Rysum-dosud-jedinou-porazku--1573"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Kladno 6:3"
+                    >6:3</a
+                  >
+                </td>
+                <td><span class="small">(0:3, 2:0, 4:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-prodlouzil-svoji-viteznou-serii-na-sest-zapasu--V-poslednim-venkovnim-utkani-porazil-Plzen---1574'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1574')"
+                onmouseout="ZmenTridu('venku','zapas_1574')"
+                id="zapas_1574"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>13.</td>
+                <td class="nowrap">so 25.11.</td>
+                <td class="bold">&nbsp;Plzeň</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-prodlouzil-svoji-viteznou-serii-na-sest-zapasu--V-poslednim-venkovnim-utkani-porazil-Plzen---1574"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Plzeň - Hostivař 3:5"
+                    >3:5</a
+                  >
+                </td>
+                <td><span class="small">(0:2, 3:2, 0:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-postupuje-do-dalsiho-kola-Ceskeho-poharu--Premieru-v-muzich-ma-za-sebou-brankar-Soukup--1685'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1685')"
+                onmouseout="ZmenTridu('venku','zapas_1685')"
+                id="zapas_1685"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>ČP3</td>
+                <td class="nowrap">ne 26.11.</td>
+                <td class="bold">&nbsp;Berani Ústí n. Labem</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-postupuje-do-dalsiho-kola-Ceskeho-poharu--Premieru-v-muzich-ma-za-sebou-brankar-Soukup--1685"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Berani Ústí n. Labem - Hostivař 3:5"
+                    >3:5</a
+                  >
+                </td>
+                <td><span class="small">(1:1, 0:1, 2:3)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-v-prvnim-pripravnem-utkani-pred-jarni-casti-porazil-Dobrany--1694'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1694')"
+                onmouseout="ZmenTridu('venku','zapas_1694')"
+                id="zapas_1694"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>Příp.</td>
+                <td class="nowrap">út 6.2.</td>
+                <td class="bold">&nbsp;Dobřany</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-v-prvnim-pripravnem-utkani-pred-jarni-casti-porazil-Dobrany--1694"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Dobřany - Hostivař 1:4"
+                    >1:4</a
+                  >
+                </td>
+                <td><span class="small">(0:0, 0:2, 1:2)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-v-prvnim-vzajemnem-utkani-porazil-Slovensky-Ruzinov--Hned-zitra-ho-ceka-odveta--1695'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1695')"
+                onmouseout="ZmenTridu('doma','zapas_1695')"
+                id="zapas_1695"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>Příp.</td>
+                <td class="nowrap">so 17.2.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Ružinov Bratislava</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-v-prvnim-vzajemnem-utkani-porazil-Slovensky-Ruzinov--Hned-zitra-ho-ceka-odveta--1695"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Ružinov Bratislava 3:1"
+                    >3:1</a
+                  >
+                </td>
+                <td><span class="small">(1:0, 2:1, 0:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-i-ve-druhem-utkani-proti-Ruzinovu-vitezny--Zapas-rozhodl-v-prodlouzeni-junior-Miksovsky--1696'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1696')"
+                onmouseout="ZmenTridu('doma','zapas_1696')"
+                id="zapas_1696"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>Příp.</td>
+                <td class="nowrap">ne 18.2.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Ružinov Bratislava</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-i-ve-druhem-utkani-proti-Ruzinovu-vitezny--Zapas-rozhodl-v-prodlouzeni-junior-Miksovsky--1696"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Ružinov Bratislava 2:1p"
+                    >2:1p</a
+                  >
+                </td>
+                <td><span class="small">(0:0, 1:0, 0:1 - 1:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-zacal-jarni-cast-vitezstvim--V-Prazskem-derby-porazil-po-druhe-v-sezone-Kert-Park--1576'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1576')"
+                onmouseout="ZmenTridu('doma','zapas_1576')"
+                id="zapas_1576"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>15.</td>
+                <td class="nowrap">so 24.2.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Kert Park Praha</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-zacal-jarni-cast-vitezstvim--V-Prazskem-derby-porazil-po-druhe-v-sezone-Kert-Park--1576"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Kert Park Praha 4:1"
+                    >4:1</a
+                  >
+                </td>
+                <td><span class="small">(2:0, 1:1, 1:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-postupuje-na-Final-Four-Ceskeho-poharu--Doma-si-v-napinavem-utkani-poradil-s-Letohradem--1721'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1721')"
+                onmouseout="ZmenTridu('doma','zapas_1721')"
+                id="zapas_1721"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>ČFČP</td>
+                <td class="nowrap">ne 25.2.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Letohrad</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-postupuje-na-Final-Four-Ceskeho-poharu--Doma-si-v-napinavem-utkani-poradil-s-Letohradem--1721"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Letohrad 5:3"
+                    >5:3</a
+                  >
+                </td>
+                <td><span class="small">(2:0, 1:2, 2:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-zaziva-vyborny-vstup-do-jarni-casti--Ve-venkovnim-utkani-porazil-Letohrad--1577'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1577')"
+                onmouseout="ZmenTridu('venku','zapas_1577')"
+                id="zapas_1577"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>16.</td>
+                <td class="nowrap">so 2.3.</td>
+                <td class="bold">&nbsp;Letohrad</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-zaziva-vyborny-vstup-do-jarni-casti--Ve-venkovnim-utkani-porazil-Letohrad--1577"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Letohrad - Hostivař 0:2"
+                    >0:2</a
+                  >
+                </td>
+                <td><span class="small">(0:0, 0:1, 0:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-zaznamenal-druhou-ligovou-porazku--Na-domacim-hristi-nestacil-na-Pardubice--1578'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1578')"
+                onmouseout="ZmenTridu('doma','zapas_1578')"
+                id="zapas_1578"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>17.</td>
+                <td class="nowrap">so 9.3.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Pardubice</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-zaznamenal-druhou-ligovou-porazku--Na-domacim-hristi-nestacil-na-Pardubice--1578"
+                    class="prohra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Pardubice 3:4"
+                    >3:4</a
+                  >
+                </td>
+                <td><span class="small">(1:2, 2:1, 0:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-zaznamenal-patnacte-vitezstvi-v-sezone--Ve-venkovnim-utkani-si-poradil-s-Dobrany--1579'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1579')"
+                onmouseout="ZmenTridu('venku','zapas_1579')"
+                id="zapas_1579"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>18.</td>
+                <td class="nowrap">so 16.3.</td>
+                <td class="bold">&nbsp;Dobřany</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-zaznamenal-patnacte-vitezstvi-v-sezone--Ve-venkovnim-utkani-si-poradil-s-Dobrany--1579"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Dobřany - Hostivař 2:5"
+                    >2:5</a
+                  >
+                </td>
+                <td><span class="small">(2:0, 0:2, 0:3)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-prehral-vysokym-vysledkem-Prachatice--Dvema-brankami-se-blyskli-hned-tri-hraci-Hostivare--1580'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1580')"
+                onmouseout="ZmenTridu('doma','zapas_1580')"
+                id="zapas_1580"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>19.</td>
+                <td class="nowrap">so 23.3.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Prachatice</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-prehral-vysokym-vysledkem-Prachatice--Dvema-brankami-se-blyskli-hned-tri-hraci-Hostivare--1580"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Prachatice 9:1"
+                    >9:1</a
+                  >
+                </td>
+                <td><span class="small">(4:0, 5:1, 0:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-uspel-v-ligove-predehravce--Ve-vyrovnanem-utkani-premohl-Svitkov--1583'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1583')"
+                onmouseout="ZmenTridu('venku','zapas_1583')"
+                id="zapas_1583"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>22.</td>
+                <td class="nowrap">ne 24.3.</td>
+                <td class="bold">&nbsp;Svítkov Stars</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-uspel-v-ligove-predehravce--Ve-vyrovnanem-utkani-premohl-Svitkov--1583"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Svítkov Stars - Hostivař 3:4"
+                    >3:4</a
+                  >
+                </td>
+                <td><span class="small">(1:2, 2:2, 0:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-si-opet-zahraje-finale-Ceskeho-poharu--V-narocnem-utkani-porazil-Kladenske-Rysy--1728'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1728')"
+                onmouseout="ZmenTridu('doma','zapas_1728')"
+                id="zapas_1728"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>SFČP</td>
+                <td class="nowrap">pá 29.3.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Kladno</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-si-opet-zahraje-finale-Ceskeho-poharu--V-narocnem-utkani-porazil-Kladenske-Rysy--1728"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Kladno 3:2"
+                    >3:2</a
+                  >
+                </td>
+                <td><span class="small">(0:0, 3:1, 0:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-nedokazal-obhajit-Cesky-pohar--Ve-finale-nestacil-na-dobre-pripraveny-Kert-Park--1734'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1734')"
+                onmouseout="ZmenTridu('doma','zapas_1734')"
+                id="zapas_1734"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>FNČP</td>
+                <td class="nowrap">so 30.3.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Kert Park Praha</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-nedokazal-obhajit-Cesky-pohar--Ve-finale-nestacil-na-dobre-pripraveny-Kert-Park--1734"
+                    class="prohra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Kert Park Praha 1:6"
+                    >1:6</a
+                  >
+                </td>
+                <td><span class="small">(0:4, 1:1, 0:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-je-vitezem-zakladni-casti-Extraligy-hokejbalu--Prvni-misto-potvrdil-vitezstvim-proti-Karvine--1581'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1581')"
+                onmouseout="ZmenTridu('venku','zapas_1581')"
+                id="zapas_1581"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>20.</td>
+                <td class="nowrap">so 6.4.</td>
+                <td class="bold">&nbsp;Karviná</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-je-vitezem-zakladni-casti-Extraligy-hokejbalu--Prvni-misto-potvrdil-vitezstvim-proti-Karvine--1581"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Karviná - Hostivař 1:2"
+                    >1:2</a
+                  >
+                </td>
+                <td><span class="small">(1:0, 0:1, 0:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-proti-Hradci-Kralove-opet-vitezny--V-predposlednim-utkani-zakladni-casti-si-zastrilel--1582'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1582')"
+                onmouseout="ZmenTridu('doma','zapas_1582')"
+                id="zapas_1582"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>21.</td>
+                <td class="nowrap">so 13.4.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Hradec Králové</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-proti-Hradci-Kralove-opet-vitezny--V-predposlednim-utkani-zakladni-casti-si-zastrilel--1582"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Hradec Králové 8:2"
+                    >8:2</a
+                  >
+                </td>
+                <td><span class="small">(2:0, 4:1:, 2:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-na-zaver-zakladni-casti-prohral-s-Ustim-nad-Labem--Na-extraligovy-rekord-tedy-nedosahl--1575'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1575')"
+                onmouseout="ZmenTridu('doma','zapas_1575')"
+                id="zapas_1575"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>14.</td>
+                <td class="nowrap">ne 14.4.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Ústí n. Labem</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-na-zaver-zakladni-casti-prohral-s-Ustim-nad-Labem--Na-extraligovy-rekord-tedy-nedosahl--1575"
+                    class="prohra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Ústí n. Labem 5:6"
+                    >5:6</a
+                  >
+                </td>
+                <td><span class="small">(0:1, 4:2, 1:3)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-odstartoval-sve-treti-extraligove-play-off-vitezstvim--V-uvodni-prestrelce-porazil-Karvinou--1735'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1735')"
+                onmouseout="ZmenTridu('doma','zapas_1735')"
+                id="zapas_1735"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>ČF1</td>
+                <td class="nowrap">so 20.4.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Karviná</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-odstartoval-sve-treti-extraligove-play-off-vitezstvim--V-uvodni-prestrelce-porazil-Karvinou--1735"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Karviná 8:3"
+                    >8:3</a
+                  >
+                </td>
+                <td><span class="small">(4:2, 2:0, 2:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-ve-druhem-ctvrtfinale-tesne-padl-Karvine--Serie-bude-pokracovat-pristi-tyden-na-pude-soupere--1736'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1736')"
+                onmouseout="ZmenTridu('doma','zapas_1736')"
+                id="zapas_1736"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>ČF2</td>
+                <td class="nowrap">ne 21.4.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Karviná</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-ve-druhem-ctvrtfinale-tesne-padl-Karvine--Serie-bude-pokracovat-pristi-tyden-na-pude-soupere--1736"
+                    class="prohra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Karviná 4:5"
+                    >4:5</a
+                  >
+                </td>
+                <td><span class="small">(2:1, 0:2, 2:2)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-ma-druhy-bod-v-ctvrtfinalove-serii--O-vyhre-rozhodl-v-posledni-tretine--1737'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1737')"
+                onmouseout="ZmenTridu('venku','zapas_1737')"
+                id="zapas_1737"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>ČF3</td>
+                <td class="nowrap">so 27.4.</td>
+                <td class="bold">&nbsp;Karviná</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-ma-druhy-bod-v-ctvrtfinalove-serii--O-vyhre-rozhodl-v-posledni-tretine--1737"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Karviná - Hostivař 2:3"
+                    >2:3</a
+                  >
+                </td>
+                <td><span class="small">(1:1, 0:0, 1:2)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-poprve-v-historii-postupuje-do-semifinale--Ve-ctyrech-utkanich-vyradil-Karvinou--1738'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1738')"
+                onmouseout="ZmenTridu('venku','zapas_1738')"
+                id="zapas_1738"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>ČF4</td>
+                <td class="nowrap">ne 28.4.</td>
+                <td class="bold">&nbsp;Karviná</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-poprve-v-historii-postupuje-do-semifinale--Ve-ctyrech-utkanich-vyradil-Karvinou--1738"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Karviná - Hostivař 3:4"
+                    >3:4</a
+                  >
+                </td>
+                <td><span class="small">(0:3, 2:0, 1:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-vstoupil-do-semifinale-uspesne--Prvni-duel-rozhodla-zaverecna-tretina--1752'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1752')"
+                onmouseout="ZmenTridu('doma','zapas_1752')"
+                id="zapas_1752"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>SF1</td>
+                <td class="nowrap">so 4.5.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Pardubice</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-vstoupil-do-semifinale-uspesne--Prvni-duel-rozhodla-zaverecna-tretina--1752"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Pardubice 4:1"
+                    >4:1</a
+                  >
+                </td>
+                <td><span class="small">(0:0, 1:1, 3:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-nastrilel-ve-druhem-utkani-kanara--Do-Pardubic-pojede-s-postupovym-mecbolem--1753'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1753')"
+                onmouseout="ZmenTridu('doma','zapas_1753')"
+                id="zapas_1753"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>SF2</td>
+                <td class="nowrap">ne 5.5.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Pardubice</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-nastrilel-ve-druhem-utkani-kanara--Do-Pardubic-pojede-s-postupovym-mecbolem--1753"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Pardubice 6:0"
+                    >6:0</a
+                  >
+                </td>
+                <td><span class="small">(2:0, 1:0, 3:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-tym-to-dokazal--Po-treti-vyhre-proti-Pardubicim-postupuje-do-extraligoveho-finale--1754'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1754')"
+                onmouseout="ZmenTridu('venku','zapas_1754')"
+                id="zapas_1754"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>SF3</td>
+                <td class="nowrap">so 11.5.</td>
+                <td class="bold">&nbsp;Pardubice</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-tym-to-dokazal--Po-treti-vyhre-proti-Pardubicim-postupuje-do-extraligoveho-finale--1754"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Pardubice - Hostivař 2:3p"
+                    >2:3p</a
+                  >
+                </td>
+                <td><span class="small">(0:1, 1:0, 1:1 - 0:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=Prvni-finale-pro-Kert-Park--Uvodni-duel-rozhodla-uspesnost-v-presilovych-hrach--1794'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1794')"
+                onmouseout="ZmenTridu('doma','zapas_1794')"
+                id="zapas_1794"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>FN1</td>
+                <td class="nowrap">so 25.5.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Kert Park Praha</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=Prvni-finale-pro-Kert-Park--Uvodni-duel-rozhodla-uspesnost-v-presilovych-hrach--1794"
+                    class="prohra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Kert Park Praha 3:4"
+                    >3:4</a
+                  >
+                </td>
+                <td><span class="small">(1:1, 1:1, 1:2)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=Vyrovnano--Hostivar-slavi-po-obratu-prvni-finalove-vitezstvi--1795'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1795')"
+                onmouseout="ZmenTridu('doma','zapas_1795')"
+                id="zapas_1795"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>FN2</td>
+                <td class="nowrap">ne 26.5.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Kert Park Praha</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=Vyrovnano--Hostivar-slavi-po-obratu-prvni-finalove-vitezstvi--1795"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Kert Park Praha 4:2"
+                    >4:2</a
+                  >
+                </td>
+                <td><span class="small">(1:2, 0:0, 3:0)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=A-zase-ta-efektivita-strelby--Kert-Park-jde-v-serii-opet-do-vedeni--1796'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1796')"
+                onmouseout="ZmenTridu('venku','zapas_1796')"
+                id="zapas_1796"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>FN3</td>
+                <td class="nowrap">so 1.6.</td>
+                <td class="bold">&nbsp;Kert Park Praha</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=A-zase-ta-efektivita-strelby--Kert-Park-jde-v-serii-opet-do-vedeni--1796"
+                    class="prohra"
+                    title="Přejít na podrobnosti o utkání: Kert Park Praha - Hostivař 4:3"
+                    >4:3</a
+                  >
+                </td>
+                <td><span class="small">(1:1, 2:1, 1:1)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=Finalova-serie-je-srovnana--Rozhodne-paty-duel-na-pude-Hostivare--1799'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1799')"
+                onmouseout="ZmenTridu('venku','zapas_1799')"
+                id="zapas_1799"
+                class="venku"
+                style="cursor: pointer"
+              >
+                <td>FN4</td>
+                <td class="nowrap">ne 2.6.</td>
+                <td class="bold">&nbsp;Kert Park Praha</td>
+                <td>&nbsp;Hostivař</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=Finalova-serie-je-srovnana--Rozhodne-paty-duel-na-pude-Hostivare--1799"
+                    class="vyhra"
+                    title="Přejít na podrobnosti o utkání: Kert Park Praha - Hostivař 1:8"
+                    >1:8</a
+                  >
+                </td>
+                <td><span class="small">(1:1, 0:1, 0:6)</span></td>
+              </tr>
+              <tr
+                onclick="window.location='zapas.asp?id=Hostivar-ztratila-tribrankove-vedeni-a-je-vicemistrem-republiky--1800'"
+                onmouseover="ZmenTridu('zvyraznene','zapas_1800')"
+                onmouseout="ZmenTridu('doma','zapas_1800')"
+                id="zapas_1800"
+                class="doma"
+                style="cursor: pointer"
+              >
+                <td>FN5</td>
+                <td class="nowrap">so 8.6.</td>
+                <td>&nbsp;Hostivař</td>
+                <td class="bold">&nbsp;Kert Park Praha</td>
+                <td>
+                  <a
+                    href="zapas.asp?ID=Hostivar-ztratila-tribrankove-vedeni-a-je-vicemistrem-republiky--1800"
+                    class="prohra"
+                    title="Přejít na podrobnosti o utkání: Hostivař - Kert Park Praha 3:4"
+                    >3:4</a
+                  >
+                </td>
+                <td><span class="small">(2:0, 1:1, 0:3)</span></td>
+              </tr>
+            </table>
+
+            <!-- hlavni text konec-->
+          </div>
+
+          <div class="socials">
+            <div class="space">&nbsp;</div>
+            <div id="socials">
+              <div id="button_facebook">
+                <fb:like
+                  href="https://www.hbchostivar.cz/zapas.asp?sezona=2024MUZ&kategorie=MUZ"
+                  send="true"
+                  layout="button_count"
+                  width="200"
+                  show_faces="false"
+                  font="segoe ui"
+                ></fb:like>
+              </div>
+              <div id="button_twitter">
+                <a
+                  href="https://twitter.com/share"
+                  class="twitter-share-button"
+                  data-count="horizontal"
+                  >Tweet</a
+                >
+                <script
+                  data-cookiecategory="social"
+                  type="text/plain"
+                  type="text/javascript"
+                  src="https://platform.twitter.com/widgets.js"
+                ></script>
+              </div>
+              <div id="button_google"><g:plusone></g:plusone></div>
+              <div class="clear">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 sidebar">
+          <div class="box box-other">
+            <h2 class="title">Muži A</h2>
+            <div class="inner">
+              <ul class="more-articles">
+                <li><a href="druzstva.asp?sezona=2024&kategorie=MUZ">Zpravodajství</a></li>
+                <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                <li><a href="statistiky.asp?sezona=2024MUZ&kategorie=MUZ">Statistiky</a></li>
+                <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                <li><a href="zobraz.asp?t=historie-umisteni">Historie umístění</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box box-facebook">
+            <h2 style="margin-top: 0px" class="title">Facebook</h2>
+            <div class="inner">
+              <iframe
+                data-cookiecategory="social"
+                type="text/plain"
+                data-placeholder
+                data-src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F39809923574&amp;width=620&amp;height=512&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=487130854754038"
+                scrolling="no"
+                frameborder="0"
+                style="border: none; overflow: hidden; width: 100%; height: 512px"
+                allowTransparency="true"
+              ></iframe>
+            </div>
+          </div>
+          <div class="box box-other">
+            <h2 class="title">Tabulka</h2>
+            <div class="inner">Tabulka není k dispozici</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="articles">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ve-finale-nezvitezil-ani-na-potreti--V-regionalni-soutezi-tak-opet-bere-stribro--1808"
+            title="Přečíst článek: B tým mužů ve finále nezvítězil ani na potřetí! V regionální soutěži tak opět bere stříbro!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ve finále nezvítězil ani na potřetí! V regionální soutěži tak opět bere
+                stříbro!
+              </h2>
+              <p class="date">11.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ztratil-i-treti-finalove-utkani--O-prodlouzeni-serie-bude-bojovat-hned-zitra--1807"
+            title="Přečíst článek: B tým mužů ztratil i třetí finálové utkání! O prodloužení série bude bojovat hned zítra!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ztratil i třetí finálové utkání! O prodloužení série bude bojovat hned
+                zítra!
+              </h2>
+              <p class="date">8.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=Hostivar-ztratila-tribrankove-vedeni-a-je-vicemistrem-republiky--1800"
+            title="Přečíst článek: Hostivař ztratila tříbrankové vedení a je vicemistrem republiky!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>Hostivař ztratila tříbrankové vedení a je vicemistrem republiky!</h2>
+              <p class="date">8.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ve-druhem-finale-tesne-padl-Rafanum--Serie-se-nyni-presouva-do-Hostivare--1806"
+            title="Přečíst článek: B tým mužů ve druhém finále těsně padl Rafanům! Série se nyní přesouvá do Hostivaře!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ve druhém finále těsně padl Rafanům! Série se nyní přesouvá do Hostivaře!
+              </h2>
+              <p class="date">6.6.2024</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="partners">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Partneři klubu</h3>
+          <ul>
+            <li>
+              <a href="https://www.prakab.cz" target="_blank"
+                ><img src="images/partner-5.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.decathlon.cz/" target="_blank"
+                ><img src="images/partner-3.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://bearings.cz/" target="_blank"
+                ><img src="images/partner-2.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.pivovar-hostivar.cz/" target="_blank"
+                ><img src="images/partner-6.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.etool.cz/" target="_blank"
+                ><img src="images/partner-1.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.madointerier.cz/" target="_blank"
+                ><img src="images/partner-5.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.dimar.cz" target="_blank"
+                ><img src="images/partner-4.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.sklenarstvikk.cz/" target="_blank"
+                ><img src="images/partner-3.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="www.datascript.cz/" target="_blank"
+                ><img src="images/partner-2.png" class="main-partner"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p id="copyright">
+      © HBC Most, 2005—2024. Vyrobeno v <a href="">eSports.cz</a> |
+      <a href="javascript:void(0);" data-cc="c-settings" aria-haspopup="dialog"
+        >Nastavení cookies</a
+      >
+    </p>
+
+    <script src="js/main.js"></script>
+    <div id="fb-root"></div>
+    <script
+      data-cookiecategory="social"
+      type="text/plain"
+      src="https://connect.facebook.net/cs_CZ/all.js#xfbml=1"
+      type="text/javascript"
+    ></script>
+    <script data-cookiecategory="social" type="text/plain">
+      window.fbAsyncInit = function() {
+        FB.init({appId: '1402160113440270', status: true, cookie: true,
+                 xfbml: true});
+      };
+      (function() {
+        var e = document.createElement('script'); e.async = true;
+        e.src = document.location.protocol +
+          '//connect.facebook.net/cs_CZ/all.js';
+        document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      {lang: 'cs'}
+    </script>
+
+    <link rel="stylesheet" href="https://consent.esports.cz/theme.asp?v=2&accent=1F2F5E" />
+    <script src="https://consent.esports.cz/config.asp?v=2&c=analytics,social&web="></script>
+    <script src="https://consent.esports.cz/main.js?v=2"></script>
+    <script
+      type="text/plain"
+      data-cookiecategory="social"
+      src="https://consent.esports.cz/social-media2.js?v=2"
+    ></script>
+  </body>
+</html>
