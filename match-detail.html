@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen, projection" />
+  </head>
+  <body>
+    <div class="container hidden-sm" id="nav-logo">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="navbar-brand-centered">
+            <a href="index.asp"><img src="images/logo.svg" id="logo_fixed" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-white hidden-xs">
+      <div class="container" id="nav-top">
+        <div class="row">
+          <div class="col-sm-6 logo">
+            <a class="logoTitle" href="index.asp">
+              <p>Oficiální web klubu</p>
+              HBC Most
+            </a>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-md-7 soc-icons">
+              <ul>
+                <li class="fb">
+                  <a
+                    href="https://www.facebook.com/pages/HBC-Hostiva%C5%99/39809923574"
+                    target="_blank"
+                  ></a>
+                </li>
+                <!-- <li class="tw"><a href="https://twitter.com/HBCHostivar" target="_blank"></a></li> -->
+                <li class="yt">
+                  <a
+                    href="https://www.youtube.com/user/hokejbalhostivar?feature=mhee"
+                    target="_blank"
+                  ></a>
+                </li>
+                <li class="ra">
+                  <a href="http://hbc-hostivar.rajce.idnes.cz/" target="_blank"></a>
+                </li>
+                <li class="in">
+                  <a href="https://instagram.com/hbchostivar/" target="_blank"></a>
+                </li>
+                <!-- <li class="gp"><a href="https://plus.google.com/+hokejbalhostivar" target="_blank"></a></li> -->
+              </ul>
+            </div>
+            <div class="col-md-4 search">
+              <form action="search.asp" id="cse-search-box" accept-charset="utf-8">
+                <input type="text" class="search" id="search_input" name="q" value="" />
+                <input type="submit" name="sa" id="sa" value="" />
+              </form>
+            </div>
+            <div class="col-md-1 hidden-xm" style="padding: 0">
+              <a
+                href="http://doc.hokejbal.cz/km/2016/eticky_kodex_cmshb_-_graficka_verze.pdf"
+                target="_blank"
+                ><img src="images/logo_hcm.jpg" style="width: 50px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-yellow" id="fixmenu">
+      <nav class="navbar navbar-menu" id="nav-menu">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Klub</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=o-nas">O nás</a></li>
+                  <li><a href="zobraz.asp?t=domaci-areal">Domácí areál</a></li>
+                  <li><a href="zobraz.asp?t=kontakty">Kontakty</a></li>
+                  <li><a href="zobraz.asp?t=treninky">Tréninky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tymy">Realizační týmy</a></li>
+                  <li><a href="partneri.asp">Partneři</a></li>
+                  <li><a href="zobraz.asp?t=ke-stazeni">Ke stažení</a></li>
+                  <li><a href="zobraz.asp?t=brigady-a-zamestnani">Brigády a zaměstnání</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Muži-A</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=MUZ">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                  <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=MUZ">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Muži-B</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?sezona=2024&kategorie=MUZB">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZB&kategorie=MUZB">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZB&kategorie=MUZB">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024MUZB&kategorie=MUZB">Tabulka</a></li>
+                  <li><a href="statistiky.asp?sezona=2024MUZB&kategorie=MUZB">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-MUZB">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Junioři</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=JUN">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024JUN&kategorie=JUN">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024JUN&kategorie=JUN">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024JUN&kategorie=JUN">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=JUN">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-JUN">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Dorost</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=DOR">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024DOR&kategorie=DOR">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024DOR&kategorie=DOR">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024DOR&kategorie=DOR">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=DOR">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-DOR">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Mládež</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=SZA">Starší žáci</a></li>
+                  <li><a href="druzstva.asp?kategorie=MZA">Mladší žáci</a></li>
+                  <li><a href="druzstva.asp?kategorie=MZAB">Mladší žáci B</a></li>
+                  <li><a href="druzstva.asp?kategorie=PRIP">Přípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=MPRIP">Minipřípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=MKPRIP">Mikropřípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=ZMPRIP">Přípravka - dívky</a></li>
+                  <li><a href="zobraz.asp?t=nabor">Nábor</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Nábory</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=pridej-se">Přidej se k nám</a></li>
+                  <li><a href="zobraz.asp?t=sportovni-hry">Sportovní hry 4-6 let</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Fanzone</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/pages/HBC-Hostiva%C5%99/39809923574"
+                      target="_blank"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li><a href="https://twitter.com/HBCHostivar" target="_blank">Twitter</a></li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/user/hokejbalhostivar?feature=mhee"
+                      target="_blank"
+                      >Youtube</a
+                    >
+                  </li>
+                  <li><a href="http://hbc-hostivar.rajce.idnes.cz/" target="_blank">Rajče</a></li>
+                  <li><a href="http://instagram.com/hbchostivar" target="_blank">Instagram</a></li>
+                  <li><a href="zobraz.asp?t=wallpapery">Wallpapery</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Pořádáme</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=HBCH-Junior-Camp">HBCH Junior Camp</a></li>
+                  <li><a href="zobraz.asp?t=primestsky-kemp">Příměstské kempy</a></li>
+                  <li><a href="zobraz.asp?t=Kempy-pro-deti">Specializované kempy</a></li>
+                  <li><a href="zobraz.asp?t=skoleni-a-workshopy">Školení a workshopy</a></li>
+                  <li><a href="https://www.faircup.cz" target="_blank">Fair cup</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Jsme životní styl</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=vitejte-v-hostivari">Vítejte v Mosti</a></li>
+                  <li><a href="zobraz.asp?t=klubova-oceneni">Klubová ocenění</a></li>
+                  <!-- <li><a href="zobraz.asp?t=podporte-hostivar">Podpořte Most</a></li> -->
+                  <li><a href="zobraz.asp?t=dulezite-terminy">Důležité termíny</a></li>
+                  <!-- <li><a href="zobraz.asp?t=objednavky">Objednávky</a></li> -->
+                  <li><a href="zobraz.asp?t=Obleceni-a-doplnky">Oblečení a doplňky</a></li>
+                  <!-- <li><a href="zobraz.asp?t=hostik-mesice">Hostík měsíce</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div>
+
+    <div class="container" id="article">
+      <div class="row">
+        <div class="col-md-8 text">
+          <div class="col-md sidebar smallMenu"></div>
+
+          <!-- hlavni text -->
+
+          <div class="top-image">
+            <div class="title">
+              <div class="info">
+                <span class="date">22.08.2023</span>
+                <span class="category">Reportáž</span>
+              </div>
+              <h1>A tým v první přípravě na novou sezónu porazil Dobřany!</h1>
+            </div>
+            <img src="images/post.jpeg" class="topstory-img" />
+            <div class="shadow"></div>
+          </div>
+
+          <div class="inner">
+            <p class="anotace">
+              Hostivařský A tým se v přípravě na novou extraligovou sezónu utkal doma s týmem TJ
+              Snack Dobřany. Ve velmi bojovném utkání, ze kterého se stala přestřelka, Hostivař
+              porazila svého západočeského soupeře 7:4! Za A tým zároveň nastoupilo několik nových
+              tváří pro novou sezónu!
+            </p>
+          </div>
+
+          <div class="inner">
+            <div class="match-info">
+              <p class="date">Příp., pondělí 21.8.2023</p>
+              <div class="info">
+                <div class="team1">
+                  <div class="inline">
+                    <img src="images/hos.png" width="40" alt="HOS" class="toleft" />
+                  </div>
+                  <div class="inline team-name">
+                    <p>Hostivař</p>
+                  </div>
+                </div>
+                <div class="score">
+                  7:4
+                  <p class="periods">4:2, 3:1, 0:1</p>
+                </div>
+                <div class="team2">
+                  <div class="inline">
+                    <img src="images/hos.png" width="40" alt="DOB" class="toright" />
+                  </div>
+                  <div class="inline team-name">
+                    <p>Most</p>
+                  </div>
+                </div>
+              </div>
+              <div class="more-info">
+                <b
+                  >Branky a nahrávky: 3:04 Lehner (J.Vaniš), 3:46 Urbanec (Hrabár), 7:46 Kubeš
+                  (Taufer), 14:40 Hrabár (Mikšovský), 20:34 Čejka (Drahoš), 22:32 Šmerha (Lehner),
+                  25:35 Urbanec (Čejka)</b
+                >
+                .<br />
+                <b>Rozhodčí: Danylec, Jonák</b> . <b>Vyloučení: 7:4</b> . <b>Využití: 0:1</b> .
+                <b>V oslabení: 0:0</b> . <b>Diváci: 47</b> . <b>Střely na branku: 42:29</b> .
+                <b>Průběh utkání: 0:1, 2:1, 2:2, 4:2, 4:3, 7:3, 7:4</b> .
+              </div>
+            </div>
+
+            <table class="teams-table">
+              <tr>
+                <td>
+                  <h2>Sestava domácích</h2>
+                  <p>
+                    Štoural (Od 16. Drahoš) - Kubeš, Hrabár, Kudela, Ilušák, Pírek, Čápek - D.Vaniš,
+                    Lehner, J.Vaniš, Pátek, Urbanec, Taufer, Šmerha, Kucharčík, Čejka, Mikšovský
+                  </p>
+                </td>
+                <td>
+                  <h2>Sestava hostí</h2>
+                  <p></p>
+                </td>
+              </tr>
+            </table>
+
+            <h2>Komentář k zápasu</h2>
+            Hostivař nastoupila do přípravného utkání hned s několika novými tvářemi – Tomáš Kudela,
+            Jiří Hrabár, Matěj Taufer či Tomáš Šmerha. Svoje první minuty v dresu A týmu zapsali
+            také odchovanci Marek Drahoš a Michal Mikšovský. Utkání od začátku mělo velký náboj. Ve
+            třetí minutě otevřel skóre utkání hostující Šlehofer. Hned o minutu později ovšem
+            vyrovnal skóre utkání Petr Lehner, přesnou střelou mezi betony! Po třiapadesáti
+            vteřinách dokázala Hostivař otočit stav utkání, když se po jednom z rychlých protiútoků
+            prosadil Otto Urbanec! Dobřany ovšem ještě v páté minutě, po druhé brance Šlehofera,
+            rychle vyrovnali. V 8. minutě našel Matěj Taufer mezi kruhy volného Ondřeje Kubeše,
+            který se nemýlil a vrátil vedení na stranu Hostivaře! V závěrečné minutě první třetiny
+            pak zvýšil vedení Hostivaře Jiří Hrabár! A tým tak po první přestávce vedl nad Dobřany
+            4:2!
+            <p></p>
+            <p>
+              Hostivař před druhou třetinou provedla změnu brankářů, z branky odstoupil Václav
+              Štoural, nahradil ho juniorský brankář Marek Drahoš! Ve druhé třetině se skóre měnilo
+              až v 21. minutě, kdy pro hosty snížil skóre zápasu Sloup. Hostivař si ale po dvou
+              minutách vzala své dvoubrankové vedení zpět, když po přihrávce Lehnera pálil přesnou a
+              tvrdou ranou Tomáš Šmerha! Pět minut před sirénou vstřelil svou druhou branku v utkání
+              Otto Urbanec a Hostivař tak vedla už 7:3! Tento stav platil i během druhé přestávky.
+            </p>
+
+            <p></p>
+            <p>
+              Třetí třetina se nesla v poněkud poklidnějším tempu, avšak s mnoha tresty na obou
+              stranách. Jediná branka v této třetině padla ve čtyřiatřicáté minutě, kdy za Dobřany
+              snížil svojí druhou brankou Sloup. Ve 40. minutě obdržel Petr Lehner trest za vysokou
+              hůl, když způsobil svému soupeři nepěkný šrám. Hostivař dlouhé oslabení ubránila a v
+              přípravném utkání Dobřany porazila výsledkem 7:4!
+            </p>
+
+            <p></p>
+            <p>
+              Nyní má Hostivař v plánu přípravný turnaj „Letňáček“, který je naplánován na tuto
+              sobotu, 26. srpna, v Dobřanské hokejbalové hale.
+            </p>
+
+            <h2>Ohlasy po utkání</h2>
+            Jan Krtička (Hlavní trenér HBC Hostivař) - Utkání se od začátku hrálo ve velice svižném
+            tempu. Je vidět, že oba týmy toho za tři týdny dost naběhali. Utkání se mi libilo,
+            splnilo účel kvalitní přípravy. My jsme dneska byli skoro v plné sestavě. Do utkání jsme
+            šli bez tréninku na hřišti, ale musím kluky bez výjimky pochválit. Samozřejmě se najdou
+            věci na kterých musíme pracovat, ale já jsem s dneškem herně spokojený. Nováčci se také
+            výborně zapojili. Dobřany hráli velice dobře, rychlý, nepříjemný hokejbal. Jsem rád, že
+            to všichni v tomto počasí přežili ve zdraví. Přes týden potrénujeme a v sobotu vyrazíme
+            na turnaj do Dobřan.
+
+            <p class="author">Redakce</p>
+
+            <!-- hlavni text konec-->
+          </div>
+
+          <div class="socials">
+            <div class="space">&nbsp;</div>
+            <div id="socials">
+              <div id="button_facebook">
+                <fb:like
+                  href="https://www.hbchostivar.cz/zapas.asp?ID=A-tym-v-prvni-priprave-na-novou-sez%F3nu-porazil-Dobrany---1560"
+                  send="true"
+                  layout="button_count"
+                  width="200"
+                  show_faces="false"
+                  font="segoe ui"
+                ></fb:like>
+              </div>
+              <div id="button_twitter">
+                <a
+                  href="https://twitter.com/share"
+                  class="twitter-share-button"
+                  data-count="horizontal"
+                  >Tweet</a
+                >
+                <script
+                  data-cookiecategory="social"
+                  type="text/plain"
+                  type="text/javascript"
+                  src="https://platform.twitter.com/widgets.js"
+                ></script>
+              </div>
+              <div id="button_google"><g:plusone></g:plusone></div>
+              <div class="clear">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 sidebar">
+          <div class="box box-facebook">
+            <h2 style="margin-top: 0px" class="title">Facebook</h2>
+            <div class="inner">
+              <iframe
+                data-cookiecategory="social"
+                type="text/plain"
+                data-placeholder
+                data-src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F39809923574&amp;width=620&amp;height=512&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=487130854754038"
+                scrolling="no"
+                frameborder="0"
+                style="border: none; overflow: hidden; width: 100%; height: 512px"
+                allowTransparency="true"
+              ></iframe>
+            </div>
+          </div>
+          <div class="box box-other">
+            <h2 class="title">Tabulka</h2>
+            <div class="inner">Tabulka není k dispozici</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="articles">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ve-finale-nezvitezil-ani-na-potreti--V-regionalni-soutezi-tak-opet-bere-stribro--1808"
+            title="Přečíst článek: B tým mužů ve finále nezvítězil ani na potřetí! V regionální soutěži tak opět bere stříbro!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ve finále nezvítězil ani na potřetí! V regionální soutěži tak opět bere
+                stříbro!
+              </h2>
+              <p class="date">9.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ztratil-i-treti-finalove-utkani--O-prodlouzeni-serie-bude-bojovat-hned-zitra--1807"
+            title="Přečíst článek: B tým mužů ztratil i třetí finálové utkání! O prodloužení série bude bojovat hned zítra!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ztratil i třetí finálové utkání! O prodloužení série bude bojovat hned
+                zítra!
+              </h2>
+              <p class="date">8.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=Hostivar-ztratila-tribrankove-vedeni-a-je-vicemistrem-republiky--1800"
+            title="Přečíst článek: Hostivař ztratila tříbrankové vedení a je vicemistrem republiky!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>Hostivař ztratila tříbrankové vedení a je vicemistrem republiky!</h2>
+              <p class="date">8.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ve-druhem-finale-tesne-padl-Rafanum--Serie-se-nyni-presouva-do-Hostivare--1806"
+            title="Přečíst článek: B tým mužů ve druhém finále těsně padl Rafanům! Série se nyní přesouvá do Hostivaře!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ve druhém finále těsně padl Rafanům! Série se nyní přesouvá do Hostivaře!
+              </h2>
+              <p class="date">6.6.2024</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="partners">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Partneři klubu</h3>
+          <ul>
+            <li>
+              <a href="https://www.prakab.cz" target="_blank"
+                ><img src="images/partner-5.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.decathlon.cz/" target="_blank"
+                ><img src="images/partner-3.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://bearings.cz/" target="_blank"
+                ><img src="images/partner-2.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.pivovar-hostivar.cz/" target="_blank"
+                ><img src="images/partner-6.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.etool.cz/" target="_blank"
+                ><img src="images/partner-1.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.madointerier.cz/" target="_blank"
+                ><img src="images/partner-5.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.dimar.cz" target="_blank"
+                ><img src="images/partner-4.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.sklenarstvikk.cz/" target="_blank"
+                ><img src="images/partner-3.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="www.datascript.cz/" target="_blank"
+                ><img src="images/partner-2.png" class="main-partner"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p id="copyright">
+      © HBC Most, 2005—2024. Vyrobeno v <a href="">eSports.cz</a> |
+      <a href="javascript:void(0);" data-cc="c-settings" aria-haspopup="dialog"
+        >Nastavení cookies</a
+      >
+    </p>
+
+    <script src="js/main.js"></script>
+    <div id="fb-root"></div>
+    <script
+      data-cookiecategory="social"
+      type="text/plain"
+      src="https://connect.facebook.net/cs_CZ/all.js#xfbml=1"
+      type="text/javascript"
+    ></script>
+    <script data-cookiecategory="social" type="text/plain">
+      window.fbAsyncInit = function() {
+        FB.init({appId: '1402160113440270', status: true, cookie: true,
+                 xfbml: true});
+      };
+      (function() {
+        var e = document.createElement('script'); e.async = true;
+        e.src = document.location.protocol +
+          '//connect.facebook.net/cs_CZ/all.js';
+        document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      {lang: 'cs'}
+    </script>
+
+    <link rel="stylesheet" href="https://consent.esports.cz/theme.asp?v=2&accent=1F2F5E" />
+    <script src="https://consent.esports.cz/config.asp?v=2&c=analytics,social&web="></script>
+    <script src="https://consent.esports.cz/main.js?v=2"></script>
+    <script
+      type="text/plain"
+      data-cookiecategory="social"
+      src="https://consent.esports.cz/social-media2.js?v=2"
+    ></script>
+  </body>
+</html>

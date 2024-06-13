@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen, projection" />
+  </head>
+  <body>
+    <div class="container hidden-sm" id="nav-logo">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="navbar-brand-centered">
+            <a href="index.asp"><img src="images/logo.svg" id="logo_fixed" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-white hidden-xs">
+      <div class="container" id="nav-top">
+        <div class="row">
+          <div class="col-sm-6 logo">
+            <a class="logoTitle" href="index.asp">
+              <p>Oficiální web klubu</p>
+              HBC Most
+            </a>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-md-7 soc-icons">
+              <ul>
+                <li class="fb">
+                  <a
+                    href="https://www.facebook.com/pages/HBC-Hostiva%C5%99/39809923574"
+                    target="_blank"
+                  ></a>
+                </li>
+                <!-- <li class="tw"><a href="https://twitter.com/HBCHostivar" target="_blank"></a></li> -->
+                <li class="yt">
+                  <a
+                    href="https://www.youtube.com/user/hokejbalhostivar?feature=mhee"
+                    target="_blank"
+                  ></a>
+                </li>
+                <li class="ra">
+                  <a href="http://hbc-hostivar.rajce.idnes.cz/" target="_blank"></a>
+                </li>
+                <li class="in">
+                  <a href="https://instagram.com/hbchostivar/" target="_blank"></a>
+                </li>
+                <!-- <li class="gp"><a href="https://plus.google.com/+hokejbalhostivar" target="_blank"></a></li> -->
+              </ul>
+            </div>
+            <div class="col-md-4 search">
+              <form action="search.asp" id="cse-search-box" accept-charset="utf-8">
+                <input type="text" class="search" id="search_input" name="q" value="" />
+                <input type="submit" name="sa" id="sa" value="" />
+              </form>
+            </div>
+            <div class="col-md-1 hidden-xm" style="padding: 0">
+              <a
+                href="http://doc.hokejbal.cz/km/2016/eticky_kodex_cmshb_-_graficka_verze.pdf"
+                target="_blank"
+                ><img src="images/logo_hcm.jpg" style="width: 50px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-yellow" id="fixmenu">
+      <nav class="navbar navbar-menu" id="nav-menu">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Klub</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=o-nas">O nás</a></li>
+                  <li><a href="zobraz.asp?t=domaci-areal">Domácí areál</a></li>
+                  <li><a href="zobraz.asp?t=kontakty">Kontakty</a></li>
+                  <li><a href="zobraz.asp?t=treninky">Tréninky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tymy">Realizační týmy</a></li>
+                  <li><a href="partneri.asp">Partneři</a></li>
+                  <li><a href="zobraz.asp?t=ke-stazeni">Ke stažení</a></li>
+                  <li><a href="zobraz.asp?t=brigady-a-zamestnani">Brigády a zaměstnání</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Muži-A</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=MUZ">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                  <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=MUZ">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Muži-B</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?sezona=2024&kategorie=MUZB">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZB&kategorie=MUZB">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZB&kategorie=MUZB">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024MUZB&kategorie=MUZB">Tabulka</a></li>
+                  <li><a href="statistiky.asp?sezona=2024MUZB&kategorie=MUZB">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-MUZB">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Junioři</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=JUN">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024JUN&kategorie=JUN">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024JUN&kategorie=JUN">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024JUN&kategorie=JUN">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=JUN">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-JUN">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Dorost</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=DOR">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024DOR&kategorie=DOR">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024DOR&kategorie=DOR">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024DOR&kategorie=DOR">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=DOR">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-DOR">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Mládež</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=SZA">Starší žáci</a></li>
+                  <li><a href="druzstva.asp?kategorie=MZA">Mladší žáci</a></li>
+                  <li><a href="druzstva.asp?kategorie=MZAB">Mladší žáci B</a></li>
+                  <li><a href="druzstva.asp?kategorie=PRIP">Přípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=MPRIP">Minipřípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=MKPRIP">Mikropřípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=ZMPRIP">Přípravka - dívky</a></li>
+                  <li><a href="zobraz.asp?t=nabor">Nábor</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Nábory</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=pridej-se">Přidej se k nám</a></li>
+                  <li><a href="zobraz.asp?t=sportovni-hry">Sportovní hry 4-6 let</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Fanzone</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/pages/HBC-Hostiva%C5%99/39809923574"
+                      target="_blank"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li><a href="https://twitter.com/HBCHostivar" target="_blank">Twitter</a></li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/user/hokejbalhostivar?feature=mhee"
+                      target="_blank"
+                      >Youtube</a
+                    >
+                  </li>
+                  <li><a href="http://hbc-hostivar.rajce.idnes.cz/" target="_blank">Rajče</a></li>
+                  <li><a href="http://instagram.com/hbchostivar" target="_blank">Instagram</a></li>
+                  <li><a href="zobraz.asp?t=wallpapery">Wallpapery</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Pořádáme</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=HBCH-Junior-Camp">HBCH Junior Camp</a></li>
+                  <li><a href="zobraz.asp?t=primestsky-kemp">Příměstské kempy</a></li>
+                  <li><a href="zobraz.asp?t=Kempy-pro-deti">Specializované kempy</a></li>
+                  <li><a href="zobraz.asp?t=skoleni-a-workshopy">Školení a workshopy</a></li>
+                  <li><a href="https://www.faircup.cz" target="_blank">Fair cup</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Jsme životní styl</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=vitejte-v-hostivari">Vítejte v Mosti</a></li>
+                  <li><a href="zobraz.asp?t=klubova-oceneni">Klubová ocenění</a></li>
+                  <!-- <li><a href="zobraz.asp?t=podporte-hostivar">Podpořte Most</a></li> -->
+                  <li><a href="zobraz.asp?t=dulezite-terminy">Důležité termíny</a></li>
+                  <!-- <li><a href="zobraz.asp?t=objednavky">Objednávky</a></li> -->
+                  <li><a href="zobraz.asp?t=Obleceni-a-doplnky">Oblečení a doplňky</a></li>
+                  <!-- <li><a href="zobraz.asp?t=hostik-mesice">Hostík měsíce</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div>
+
+    <div class="container" id="article">
+      <div class="row">
+        <div class="col-md-8 text">
+          <div class="col-md sidebar smallMenu">
+            <div class="box box-other">
+              <h2 class="title">Muži A</h2>
+              <div class="inner">
+                <ul class="more-articles">
+                  <li><a href="druzstva.asp?sezona=2024&kategorie=MUZ">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                  <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                  <li><a href="statistiky.asp?sezona=2024MUZ&kategorie=MUZ">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                  <li><a href="zobraz.asp?t=historie-umisteni">Historie umístění</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="inner">
+            <!-- hlavni text -->
+
+            <h1><span>Soupiska</span> - 2023/2024</h1>
+            <div class="menicko">
+              <a href="soupiska.asp?sezona=2024MUZ&amp;kategorie=MUZ" class="bold"
+                >Klasická soupiska</a
+              >
+              | <a href="soupiska_foto.asp?sezona=2024MUZ&amp;kategorie=MUZ">Foto-soupiska</a>
+            </div>
+            <table cellspacing="0" cellpadding="0" id="soupiska" class="nice">
+              <tr>
+                <th class="cislo center">
+                  <a
+                    href="soupiska.asp?s=1&amp;sezona=2024MUZ&amp;kategorie=MUZ&amp;typ=&amp;fotosoupiska=0"
+                    title="Seřadit podle: čísla"
+                    >#</a
+                  >
+                </th>
+                <th class="post">
+                  <a
+                    href="soupiska.asp?s=2&amp;sezona=2024MUZ&amp;kategorie=MUZ&amp;typ=&amp;fotosoupiska=0"
+                    title="Seřadit podle: postu"
+                    >post</a
+                  >
+                </th>
+                <th class="jmeno">
+                  <a
+                    href="soupiska.asp?s=3&amp;sezona=2024MUZ&amp;kategorie=MUZ&amp;typ=&amp;fotosoupiska=0"
+                    title="Seřadit podle: jména"
+                    >jméno</a
+                  >
+                </th>
+                <th class="narozen center">
+                  <a
+                    href="soupiska.asp?s=4&amp;sezona=2024MUZ&amp;kategorie=MUZ&amp;typ=&amp;fotosoupiska=0"
+                    title="Seřadit podle: narození"
+                    >narozen</a
+                  >
+                </th>
+                <th class="vek right">
+                  <a
+                    href="soupiska.asp?s=4&amp;sezona=2024MUZ&amp;kategorie=MUZ&amp;typ=&amp;fotosoupiska=0"
+                    title="Seřadit podle: věku"
+                    >věk</a
+                  >
+                </th>
+                <th class="vyska right">
+                  <a
+                    href="soupiska.asp?s=5&amp;sezona=2024MUZ&amp;kategorie=MUZ&amp;typ=&amp;fotosoupiska=0"
+                    title="Seřadit podle: výšky"
+                    >výška</a
+                  >
+                </th>
+                <th class="vaha right">
+                  <a
+                    href="soupiska.asp?s=6&amp;sezona=2024MUZ&amp;kategorie=MUZ&amp;typ=&amp;fotosoupiska=0"
+                    title="Seřadit podle: váhy"
+                    >váha</a
+                  >
+                </th>
+                <th class="hul center">
+                  <a
+                    href="soupiska.asp?s=7&amp;sezona=2024MUZ&amp;kategorie=MUZ&amp;typ=&amp;fotosoupiska=0"
+                    title="Seřadit podle: hole"
+                    >hůl</a
+                  >
+                </th>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Petr-Brykner-430&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_430')"
+                onmouseout="ZmenTridu('B','soupiska_430')"
+                class="B"
+                id="soupiska_430"
+              >
+                <td class="center">31</td>
+                <td class="center post">B</td>
+                <td class="jmeno">Petr Brykner</td>
+                <td class="center">20.9.1989</td>
+                <td class="right">34 let</td>
+                <td class="right">&nbsp;</td>
+                <td class="right">&nbsp;</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Vaclav-Stoural-88&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_88')"
+                onmouseout="ZmenTridu('B','soupiska_88')"
+                class="B"
+                id="soupiska_88"
+              >
+                <td class="center">22</td>
+                <td class="center post">B</td>
+                <td class="jmeno">Václav Štoural</td>
+                <td class="center">22.6.2000</td>
+                <td class="right">23 let</td>
+                <td class="right">183 cm</td>
+                <td class="right">70 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Michal-Supik-20&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_20')"
+                onmouseout="ZmenTridu('B','soupiska_20')"
+                class="B"
+                id="soupiska_20"
+              >
+                <td class="center">33</td>
+                <td class="center post">B</td>
+                <td class="jmeno">Michal Šupík</td>
+                <td class="center">23.9.1980</td>
+                <td class="right">43 let</td>
+                <td class="right">185 cm</td>
+                <td class="right">87 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Dalibor-Capek-360&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_360')"
+                onmouseout="ZmenTridu('O','soupiska_360')"
+                class="O"
+                id="soupiska_360"
+              >
+                <td class="center">45</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Dalibor Čápek</td>
+                <td class="center">4.5.1990</td>
+                <td class="right">34 let</td>
+                <td class="right">183 cm</td>
+                <td class="right">88 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Patrik-Ciz-427&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_427')"
+                onmouseout="ZmenTridu('O','soupiska_427')"
+                class="O"
+                id="soupiska_427"
+              >
+                <td class="center">77</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Patrik Číž</td>
+                <td class="center">1.3.2006</td>
+                <td class="right">18 let</td>
+                <td class="right">&nbsp;</td>
+                <td class="right">&nbsp;</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Jiri-Hrabar-397&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_397')"
+                onmouseout="ZmenTridu('O','soupiska_397')"
+                class="O"
+                id="soupiska_397"
+              >
+                <td class="center">27</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Jiří Hrabár</td>
+                <td class="center">24.2.1998</td>
+                <td class="right">26 let</td>
+                <td class="right">179 cm</td>
+                <td class="right">88 kg</td>
+                <td class="center">P</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Jan-Kocka-392&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_392')"
+                onmouseout="ZmenTridu('O','soupiska_392')"
+                class="O"
+                id="soupiska_392"
+              >
+                <td class="center">83</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Jan Kočka</td>
+                <td class="center">8.8.1989</td>
+                <td class="right">34 let</td>
+                <td class="right">181 cm</td>
+                <td class="right">88 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Ondrej-Kubes-91&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_91')"
+                onmouseout="ZmenTridu('O','soupiska_91')"
+                class="O"
+                id="soupiska_91"
+              >
+                <td class="center">5</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Ondřej Kubeš</td>
+                <td class="center">30.5.2000</td>
+                <td class="right">24 let</td>
+                <td class="right">202 cm</td>
+                <td class="right">100 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Tomas-Kudela-400&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_400')"
+                onmouseout="ZmenTridu('O','soupiska_400')"
+                class="O"
+                id="soupiska_400"
+              >
+                <td class="center">12</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Tomáš Kudela</td>
+                <td class="center">11.10.1989</td>
+                <td class="right">34 let</td>
+                <td class="right">198 cm</td>
+                <td class="right">100 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Petr-Pirek-376&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_376')"
+                onmouseout="ZmenTridu('O','soupiska_376')"
+                class="O"
+                id="soupiska_376"
+              >
+                <td class="center">8</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Petr Pírek</td>
+                <td class="center">13.10.1999</td>
+                <td class="right">24 let</td>
+                <td class="right">178 cm</td>
+                <td class="right">81 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Michal-Prucha-426&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_426')"
+                onmouseout="ZmenTridu('O','soupiska_426')"
+                class="O"
+                id="soupiska_426"
+              >
+                <td class="center">60</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Michal Průcha</td>
+                <td class="center">24.2.1992</td>
+                <td class="right">32 let</td>
+                <td class="right">189 cm</td>
+                <td class="right">93 kg</td>
+                <td class="center">P</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Tomas-Ruda-403&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_403')"
+                onmouseout="ZmenTridu('O','soupiska_403')"
+                class="O"
+                id="soupiska_403"
+              >
+                <td class="center">62</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Tomáš Ruda</td>
+                <td class="center">28.5.1984</td>
+                <td class="right">40 let</td>
+                <td class="right">176 cm</td>
+                <td class="right">81 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Petr-Svanda-429&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_429')"
+                onmouseout="ZmenTridu('O','soupiska_429')"
+                class="O"
+                id="soupiska_429"
+              >
+                <td class="center">84</td>
+                <td class="center post">O</td>
+                <td class="jmeno">Petr Švanda</td>
+                <td class="center">6.4.1984</td>
+                <td class="right">40 let</td>
+                <td class="right">&nbsp;</td>
+                <td class="right">&nbsp;</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Jan-Cejka-141&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_141')"
+                onmouseout="ZmenTridu('U','soupiska_141')"
+                class="U"
+                id="soupiska_141"
+              >
+                <td class="center">92</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Jan Čejka</td>
+                <td class="center">17.5.2002</td>
+                <td class="right">22 let</td>
+                <td class="right">189 cm</td>
+                <td class="right">93 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Jan-Divis-428&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_428')"
+                onmouseout="ZmenTridu('U','soupiska_428')"
+                class="U"
+                id="soupiska_428"
+              >
+                <td class="center">70</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Jan Diviš</td>
+                <td class="center">28.8.1993</td>
+                <td class="right">30 let</td>
+                <td class="right">&nbsp;</td>
+                <td class="right">&nbsp;</td>
+                <td class="center">P</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Ondrej-Dostal-399&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_399')"
+                onmouseout="ZmenTridu('U','soupiska_399')"
+                class="U"
+                id="soupiska_399"
+              >
+                <td class="center">86</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Ondřej Dostál</td>
+                <td class="center">14.2.2003</td>
+                <td class="right">21 let</td>
+                <td class="right">185 cm</td>
+                <td class="right">85 kg</td>
+                <td class="center">P</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Marek-Hroch-155&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_155')"
+                onmouseout="ZmenTridu('U','soupiska_155')"
+                class="U"
+                id="soupiska_155"
+              >
+                <td class="center">18</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Marek Hroch</td>
+                <td class="center">4.5.2003</td>
+                <td class="right">21 let</td>
+                <td class="right">181 cm</td>
+                <td class="right">83 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Samuel-Kucharcik-195&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_195')"
+                onmouseout="ZmenTridu('U','soupiska_195')"
+                class="U"
+                id="soupiska_195"
+              >
+                <td class="center">26</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Samuel Kucharčík</td>
+                <td class="center">26.12.2002</td>
+                <td class="right">21 let</td>
+                <td class="right">194 cm</td>
+                <td class="right">93 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Petr-Lehner-185&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_185')"
+                onmouseout="ZmenTridu('U','soupiska_185')"
+                class="U"
+                id="soupiska_185"
+              >
+                <td class="center">87</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Petr Lehner</td>
+                <td class="center">10.11.2005</td>
+                <td class="right">18 let</td>
+                <td class="right">190 cm</td>
+                <td class="right">75 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Jaroslav-Patek-375&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_375')"
+                onmouseout="ZmenTridu('U','soupiska_375')"
+                class="U"
+                id="soupiska_375"
+              >
+                <td class="center">25</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Jaroslav Pátek</td>
+                <td class="center">10.2.1999</td>
+                <td class="right">25 let</td>
+                <td class="right">176 cm</td>
+                <td class="right">94 kg</td>
+                <td class="center">P</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Jan-Smola-425&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_425')"
+                onmouseout="ZmenTridu('U','soupiska_425')"
+                class="U"
+                id="soupiska_425"
+              >
+                <td class="center">80</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Jan Smola</td>
+                <td class="center">11.12.2001</td>
+                <td class="right">22 let</td>
+                <td class="right">178 cm</td>
+                <td class="right">80 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Matej-Taufer-398&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_398')"
+                onmouseout="ZmenTridu('U','soupiska_398')"
+                class="U"
+                id="soupiska_398"
+              >
+                <td class="center">24</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Matěj Taufer</td>
+                <td class="center">24.1.2003</td>
+                <td class="right">21 let</td>
+                <td class="right">187 cm</td>
+                <td class="right">78 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Otto-Urbanec-274&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_274')"
+                onmouseout="ZmenTridu('U','soupiska_274')"
+                class="U"
+                id="soupiska_274"
+              >
+                <td class="center">81</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Otto Urbanec</td>
+                <td class="center">7.6.1994</td>
+                <td class="right">30 let</td>
+                <td class="right">185 cm</td>
+                <td class="right">80 kg</td>
+                <td class="center">P</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Daniel-Vanis-145&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_145')"
+                onmouseout="ZmenTridu('U','soupiska_145')"
+                class="U"
+                id="soupiska_145"
+              >
+                <td class="center">58</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Daniel Vaniš</td>
+                <td class="center">2.10.2002</td>
+                <td class="right">21 let</td>
+                <td class="right">185 cm</td>
+                <td class="right">77 kg</td>
+                <td class="center">L</td>
+              </tr>
+              <tr
+                onclick="window.location='hrac.asp?id=Jiri-Vanis-100&amp;sezona=2024MUZ&amp;kategorie=MUZ'"
+                onmouseover="ZmenTridu('zvyraznene','soupiska_100')"
+                onmouseout="ZmenTridu('U','soupiska_100')"
+                class="U"
+                id="soupiska_100"
+              >
+                <td class="center">10</td>
+                <td class="center post">U</td>
+                <td class="jmeno">Jiří Vaniš</td>
+                <td class="center">9.5.2000</td>
+                <td class="right">24 let</td>
+                <td class="right">177 cm</td>
+                <td class="right">88 kg</td>
+                <td class="center">P</td>
+              </tr>
+              <tr class="prumer">
+                <th colspan="3">&nbsp;</th>
+                <th class="right"><strong>průměr:</strong></th>
+                <th class="right">27 let</th>
+                <th class="right">185&nbsp;cm</th>
+                <th class="right">86&nbsp;kg</th>
+                <th>&nbsp;</th>
+              </tr>
+            </table>
+
+            <!-- hlavni text konec-->
+          </div>
+        </div>
+
+        <div class="col-md-4 sidebar">
+          <div class="box box-other">
+            <h2 class="title">Muži A</h2>
+            <div class="inner">
+              <ul class="more-articles">
+                <li><a href="druzstva.asp?sezona=2024&kategorie=MUZ">Zpravodajství</a></li>
+                <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                <li><a href="statistiky.asp?sezona=2024MUZ&kategorie=MUZ">Statistiky</a></li>
+                <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                <li><a href="zobraz.asp?t=historie-umisteni">Historie umístění</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box box-facebook">
+            <h2 style="margin-top: 0px" class="title">Facebook</h2>
+            <div class="inner">
+              <iframe
+                data-cookiecategory="social"
+                type="text/plain"
+                data-placeholder
+                data-src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F39809923574&amp;width=620&amp;height=512&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=487130854754038"
+                scrolling="no"
+                frameborder="0"
+                style="border: none; overflow: hidden; width: 100%; height: 512px"
+                allowTransparency="true"
+              ></iframe>
+            </div>
+          </div>
+          <div class="box box-other">
+            <h2 class="title">Tabulka</h2>
+            <div class="inner">Tabulka není k dispozici</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="articles">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ve-finale-nezvitezil-ani-na-potreti--V-regionalni-soutezi-tak-opet-bere-stribro--1808"
+            title="Přečíst článek: B tým mužů ve finále nezvítězil ani na potřetí! V regionální soutěži tak opět bere stříbro!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ve finále nezvítězil ani na potřetí! V regionální soutěži tak opět bere
+                stříbro!
+              </h2>
+              <p class="date">9.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ztratil-i-treti-finalove-utkani--O-prodlouzeni-serie-bude-bojovat-hned-zitra--1807"
+            title="Přečíst článek: B tým mužů ztratil i třetí finálové utkání! O prodloužení série bude bojovat hned zítra!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ztratil i třetí finálové utkání! O prodloužení série bude bojovat hned
+                zítra!
+              </h2>
+              <p class="date">8.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=Hostivar-ztratila-tribrankove-vedeni-a-je-vicemistrem-republiky--1800"
+            title="Přečíst článek: Hostivař ztratila tříbrankové vedení a je vicemistrem republiky!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>Hostivař ztratila tříbrankové vedení a je vicemistrem republiky!</h2>
+              <p class="date">8.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ve-druhem-finale-tesne-padl-Rafanum--Serie-se-nyni-presouva-do-Hostivare--1806"
+            title="Přečíst článek: B tým mužů ve druhém finále těsně padl Rafanům! Série se nyní přesouvá do Hostivaře!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ve druhém finále těsně padl Rafanům! Série se nyní přesouvá do Hostivaře!
+              </h2>
+              <p class="date">6.6.2024</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="partners">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Partneři klubu</h3>
+          <ul>
+            <li>
+              <a href="https://www.prakab.cz" target="_blank"
+                ><img src="images/partner-5.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.decathlon.cz/" target="_blank"
+                ><img src="images/partner-3.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://bearings.cz/" target="_blank"
+                ><img src="images/partner-2.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.pivovar-hostivar.cz/" target="_blank"
+                ><img src="images/partner-6.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.etool.cz/" target="_blank"
+                ><img src="images/partner-1.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.madointerier.cz/" target="_blank"
+                ><img src="images/partner-5.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.dimar.cz" target="_blank"
+                ><img src="images/partner-4.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.sklenarstvikk.cz/" target="_blank"
+                ><img src="images/partner-3.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="www.datascript.cz/" target="_blank"
+                ><img src="images/partner-2.png" class="main-partner"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p id="copyright">
+      © HBC Most, 2005—2024. Vyrobeno v <a href="">eSports.cz</a> |
+      <a href="javascript:void(0);" data-cc="c-settings" aria-haspopup="dialog"
+        >Nastavení cookies</a
+      >
+    </p>
+
+    <script src="js/main.js"></script>
+    <div id="fb-root"></div>
+    <script
+      data-cookiecategory="social"
+      type="text/plain"
+      src="https://connect.facebook.net/cs_CZ/all.js#xfbml=1"
+      type="text/javascript"
+    ></script>
+    <script data-cookiecategory="social" type="text/plain">
+      window.fbAsyncInit = function() {
+        FB.init({appId: '1402160113440270', status: true, cookie: true,
+                 xfbml: true});
+      };
+      (function() {
+        var e = document.createElement('script'); e.async = true;
+        e.src = document.location.protocol +
+          '//connect.facebook.net/cs_CZ/all.js';
+        document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      {lang: 'cs'}
+    </script>
+
+    <link rel="stylesheet" href="https://consent.esports.cz/theme.asp?v=2&accent=1F2F5E" />
+    <script src="https://consent.esports.cz/config.asp?v=2&c=analytics,social&web="></script>
+    <script src="https://consent.esports.cz/main.js?v=2"></script>
+    <script
+      type="text/plain"
+      data-cookiecategory="social"
+      src="https://consent.esports.cz/social-media2.js?v=2"
+    ></script>
+  </body>
+</html>

@@ -1168,7 +1168,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.1;
   color: inherit;
 }
@@ -7742,7 +7742,6 @@ table {
 }
 #article .text .top-image .title .info span {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
@@ -7757,7 +7756,6 @@ table {
 }
 #article .text .top-image .title h1 {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   font-weight: 400;
   padding-left: 23px;
@@ -7787,7 +7785,6 @@ table {
 #article .text .inner h5,
 #article .text .inner h6 {
   color: #002c5a;
-  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   margin-top: 35px;
   margin-bottom: 15px;
@@ -7807,9 +7804,8 @@ table {
 #article .text .inner .match-info .date {
   text-align: center;
   color: #002c5a;
-  font-family: 'Montserrat', sans-serif;
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 600;
 }
 #article .text .inner .match-info .info {
   display: table;
@@ -7826,7 +7822,6 @@ table {
   display: table-cell;
   width: 40%;
   color: #002c5a;
-  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   font-weight: 400;
   vertical-align: middle;
@@ -7838,7 +7833,6 @@ table {
 #article .text .inner .match-info .info .team1 .inline p,
 #article .text .inner .match-info .info .team2 .inline p {
   color: #002c5a;
-  font-family: 'Montserrat', sans-serif;
   font-size: 19px;
   font-weight: 700;
   text-transform: uppercase;
@@ -7853,8 +7847,7 @@ table {
   width: 50%;
 }
 #article .text .inner .match-info .info .score {
-  font-family: 'Montserrat', sans-serif;
-  color: #ff8c00;
+  color: #002c5a;
   font-size: 48px;
   font-weight: 700;
   width: 95%;
@@ -7863,8 +7856,7 @@ table {
   padding: 25px;
 }
 #article .text .inner .match-info .info .score .periods {
-  color: #ff8c00;
-  font-family: 'Montserrat', sans-serif;
+  color: #002c5a;
   font-size: 13px;
   font-weight: 400;
 }
@@ -7884,8 +7876,7 @@ table {
 }
 #article .text .inner .match-info .more-info {
   text-align: left;
-  color: #ff8c00;
-  font-family: 'Montserrat', sans-serif;
+  color: #002c5a;
   font-size: 13px;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -7905,7 +7896,6 @@ table {
 }
 #article .text .inner .teams-table h2 {
   color: #002c5a;
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -7924,7 +7914,7 @@ table {
 }
 #article .text .inner .player-info-table h2 {
   color: #002c5a;
-  font-family: 'Montserrat', sans-serif;
+
   font-size: 19px;
   font-weight: 400;
   text-transform: uppercase;
@@ -7935,7 +7925,7 @@ table {
 }
 #article .text .inner .player-info-table p {
   color: #002c5a;
-  font-family: 'Montserrat', sans-serif;
+
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;

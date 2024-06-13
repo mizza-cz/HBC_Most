@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen, projection" />
+  </head>
+  <body>
+    <div class="container hidden-sm" id="nav-logo">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="navbar-brand-centered">
+            <a href="index.asp"><img src="images/logo.svg" id="logo_fixed" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-white hidden-xs">
+      <div class="container" id="nav-top">
+        <div class="row">
+          <div class="col-sm-6 logo">
+            <a class="logoTitle" href="index.asp">
+              <p>Oficiální web klubu</p>
+              HBC Most
+            </a>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-md-7 soc-icons">
+              <ul>
+                <li class="fb">
+                  <a
+                    href="https://www.facebook.com/pages/HBC-Hostiva%C5%99/39809923574"
+                    target="_blank"
+                  ></a>
+                </li>
+                <!-- <li class="tw"><a href="https://twitter.com/HBCHostivar" target="_blank"></a></li> -->
+                <li class="yt">
+                  <a
+                    href="https://www.youtube.com/user/hokejbalhostivar?feature=mhee"
+                    target="_blank"
+                  ></a>
+                </li>
+                <li class="ra">
+                  <a href="http://hbc-hostivar.rajce.idnes.cz/" target="_blank"></a>
+                </li>
+                <li class="in">
+                  <a href="https://instagram.com/hbchostivar/" target="_blank"></a>
+                </li>
+                <!-- <li class="gp"><a href="https://plus.google.com/+hokejbalhostivar" target="_blank"></a></li> -->
+              </ul>
+            </div>
+            <div class="col-md-4 search">
+              <form action="search.asp" id="cse-search-box" accept-charset="utf-8">
+                <input type="text" class="search" id="search_input" name="q" value="" />
+                <input type="submit" name="sa" id="sa" value="" />
+              </form>
+            </div>
+            <div class="col-md-1 hidden-xm" style="padding: 0">
+              <a
+                href="http://doc.hokejbal.cz/km/2016/eticky_kodex_cmshb_-_graficka_verze.pdf"
+                target="_blank"
+                ><img src="images/logo_hcm.jpg" style="width: 50px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-yellow" id="fixmenu">
+      <nav class="navbar navbar-menu" id="nav-menu">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Klub</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=o-nas">O nás</a></li>
+                  <li><a href="zobraz.asp?t=domaci-areal">Domácí areál</a></li>
+                  <li><a href="zobraz.asp?t=kontakty">Kontakty</a></li>
+                  <li><a href="zobraz.asp?t=treninky">Tréninky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tymy">Realizační týmy</a></li>
+                  <li><a href="partneri.asp">Partneři</a></li>
+                  <li><a href="zobraz.asp?t=ke-stazeni">Ke stažení</a></li>
+                  <li><a href="zobraz.asp?t=brigady-a-zamestnani">Brigády a zaměstnání</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Muži-A</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=MUZ">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                  <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=MUZ">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Muži-B</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?sezona=2024&kategorie=MUZB">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZB&kategorie=MUZB">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZB&kategorie=MUZB">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024MUZB&kategorie=MUZB">Tabulka</a></li>
+                  <li><a href="statistiky.asp?sezona=2024MUZB&kategorie=MUZB">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-MUZB">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Junioři</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=JUN">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024JUN&kategorie=JUN">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024JUN&kategorie=JUN">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024JUN&kategorie=JUN">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=JUN">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-JUN">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Dorost</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=DOR">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024DOR&kategorie=DOR">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024DOR&kategorie=DOR">Soupiska</a></li>
+                  <li><a href="tabulka_local.asp?sezona=2024DOR&kategorie=DOR">Tabulka</a></li>
+                  <li><a href="statistiky.asp?kategorie=DOR">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym-DOR">Realizační tým</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Mládež</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="druzstva.asp?kategorie=SZA">Starší žáci</a></li>
+                  <li><a href="druzstva.asp?kategorie=MZA">Mladší žáci</a></li>
+                  <li><a href="druzstva.asp?kategorie=MZAB">Mladší žáci B</a></li>
+                  <li><a href="druzstva.asp?kategorie=PRIP">Přípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=MPRIP">Minipřípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=MKPRIP">Mikropřípravka</a></li>
+                  <li><a href="druzstva.asp?kategorie=ZMPRIP">Přípravka - dívky</a></li>
+                  <li><a href="zobraz.asp?t=nabor">Nábor</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Nábory</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=pridej-se">Přidej se k nám</a></li>
+                  <li><a href="zobraz.asp?t=sportovni-hry">Sportovní hry 4-6 let</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Fanzone</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/pages/HBC-Hostiva%C5%99/39809923574"
+                      target="_blank"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li><a href="https://twitter.com/HBCHostivar" target="_blank">Twitter</a></li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/user/hokejbalhostivar?feature=mhee"
+                      target="_blank"
+                      >Youtube</a
+                    >
+                  </li>
+                  <li><a href="http://hbc-hostivar.rajce.idnes.cz/" target="_blank">Rajče</a></li>
+                  <li><a href="http://instagram.com/hbchostivar" target="_blank">Instagram</a></li>
+                  <li><a href="zobraz.asp?t=wallpapery">Wallpapery</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Pořádáme</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=HBCH-Junior-Camp">HBCH Junior Camp</a></li>
+                  <li><a href="zobraz.asp?t=primestsky-kemp">Příměstské kempy</a></li>
+                  <li><a href="zobraz.asp?t=Kempy-pro-deti">Specializované kempy</a></li>
+                  <li><a href="zobraz.asp?t=skoleni-a-workshopy">Školení a workshopy</a></li>
+                  <li><a href="https://www.faircup.cz" target="_blank">Fair cup</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle hoverfx"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Jsme životní styl</a
+                >
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="zobraz.asp?t=vitejte-v-hostivari">Vítejte v Mosti</a></li>
+                  <li><a href="zobraz.asp?t=klubova-oceneni">Klubová ocenění</a></li>
+                  <!-- <li><a href="zobraz.asp?t=podporte-hostivar">Podpořte Most</a></li> -->
+                  <li><a href="zobraz.asp?t=dulezite-terminy">Důležité termíny</a></li>
+                  <!-- <li><a href="zobraz.asp?t=objednavky">Objednávky</a></li> -->
+                  <li><a href="zobraz.asp?t=Obleceni-a-doplnky">Oblečení a doplňky</a></li>
+                  <!-- <li><a href="zobraz.asp?t=hostik-mesice">Hostík měsíce</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div>
+
+    <div class="container" id="article">
+      <div class="row">
+        <div class="col-md-8 text">
+          <div class="col-md sidebar smallMenu">
+            <div class="box box-other">
+              <h2 class="title">Muži A</h2>
+              <div class="inner">
+                <ul class="more-articles">
+                  <li><a href="druzstva.asp?sezona=2024&kategorie=MUZ">Zpravodajství</a></li>
+                  <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                  <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                  <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                  <li><a href="statistiky.asp?sezona=2024MUZ&kategorie=MUZ">Statistiky</a></li>
+                  <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                  <li><a href="zobraz.asp?t=historie-umisteni">Historie umístění</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="inner">
+            <!-- hlavni text -->
+
+            <h1>Tabulka 2023-2024</h1>
+
+            <style>
+              .table_hokejbal tr.HOS {
+                font-weight: bold;
+              }
+            </style>
+            <h2>Celková tabulka</h2>
+            <table cellspacing="0" cellpadding="0" class="table_hokejbal">
+              <tr>
+                <th class="poradi">P.</th>
+                <th class="tym">
+                  <a href="tabulka.asp?order=tym_jmeno&amp;dir=ASC&amp;liga=&amp;sezona=">Tým</a>
+                </th>
+                <th class="zapasy">
+                  <a href="tabulka.asp?order=zapasy&amp;dir=ASC&amp;liga=&amp;sezona=">Z</a>
+                </th>
+                <th class="vyhry">
+                  <a href="tabulka.asp?order=vyhry&amp;dir=DESC&amp;liga=&amp;sezona=">V</a>
+                </th>
+                <th class="remizy">
+                  <a href="tabulka.asp?order=vyhryP&amp;dir=DESC&amp;liga=&amp;sezona=">VP</a>
+                </th>
+                <th class="prohryP">
+                  <a href="tabulka.asp?order=prohryP&amp;dir=ASC&amp;liga=&amp;sezona=">PP</a>
+                </th>
+                <th class="prohry">
+                  <a href="tabulka.asp?order=prohry&amp;dir=ASC&amp;liga=&amp;sezona=">P</a>
+                </th>
+                <th class="body">
+                  <a href="tabulka.asp?order=body&amp;dir=DESC&amp;liga=&amp;sezona=">B</a>
+                </th>
+                <th class="skore">Skóre</th>
+                <th class="goly_rozdil">
+                  <a href="tabulka.asp?order=goly_rozdil&amp;dir=DESC&amp;liga=&amp;sezona=">RG</a>
+                </th>
+              </tr>
+
+              <tr class="HOS">
+                <td class="poradi">1.</td>
+                <td class="tym">HBC Hostivař</td>
+                <td class="zapasy">34</td>
+                <td class="vyhry">26</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">7</td>
+                <td class="body">80</td>
+                <td class="skore">162:82</td>
+                <td class="goly_rozdil">80</td>
+              </tr>
+              <tr class="vysvitit KER">
+                <td class="poradi">2.</td>
+                <td class="tym">HC Kert Park Praha</td>
+                <td class="zapasy">35</td>
+                <td class="vyhry">24</td>
+                <td class="vyhryP">3</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">8</td>
+                <td class="body">78</td>
+                <td class="skore">157:97</td>
+                <td class="goly_rozdil">60</td>
+              </tr>
+              <tr class="UNL">
+                <td class="poradi">3.</td>
+                <td class="tym">Elba DDM Ústí nad Labem</td>
+                <td class="zapasy">25</td>
+                <td class="vyhry">17</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">6</td>
+                <td class="body">54</td>
+                <td class="skore">91:54</td>
+                <td class="goly_rozdil">37</td>
+              </tr>
+              <tr class="vysvitit SVP">
+                <td class="poradi">4.</td>
+                <td class="tym">HBC Svítkov Stars Pardubice</td>
+                <td class="zapasy">29</td>
+                <td class="vyhry">14</td>
+                <td class="vyhryP">3</td>
+                <td class="prohryP">2</td>
+                <td class="prohry">10</td>
+                <td class="body">50</td>
+                <td class="skore">105:90</td>
+                <td class="goly_rozdil">15</td>
+              </tr>
+              <tr class="KLA">
+                <td class="poradi">5.</td>
+                <td class="tym">HBC Kladno</td>
+                <td class="zapasy">25</td>
+                <td class="vyhry">13</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">3</td>
+                <td class="prohry">9</td>
+                <td class="body">42</td>
+                <td class="skore">80:64</td>
+                <td class="goly_rozdil">16</td>
+              </tr>
+              <tr class="vysvitit PCE">
+                <td class="poradi">6.</td>
+                <td class="tym">HBC Pardubice</td>
+                <td class="zapasy">28</td>
+                <td class="vyhry">11</td>
+                <td class="vyhryP">3</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">13</td>
+                <td class="body">40</td>
+                <td class="skore">99:91</td>
+                <td class="goly_rozdil">8</td>
+              </tr>
+              <tr class="LET">
+                <td class="poradi">7.</td>
+                <td class="tym">SK Hokejbal Letohrad</td>
+                <td class="zapasy">25</td>
+                <td class="vyhry">11</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">2</td>
+                <td class="prohry">11</td>
+                <td class="body">37</td>
+                <td class="skore">82:79</td>
+                <td class="goly_rozdil">3</td>
+              </tr>
+              <tr class="vysvitit KAR">
+                <td class="poradi">8.</td>
+                <td class="tym">HbK Karviná</td>
+                <td class="zapasy">25</td>
+                <td class="vyhry">8</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">15</td>
+                <td class="body">27</td>
+                <td class="skore">73:100</td>
+                <td class="goly_rozdil">-27</td>
+              </tr>
+              <tr class="PLZ">
+                <td class="poradi">9.</td>
+                <td class="tym">HBC Plzeň</td>
+                <td class="zapasy">22</td>
+                <td class="vyhry">4</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">4</td>
+                <td class="prohry">13</td>
+                <td class="body">18</td>
+                <td class="skore">48:80</td>
+                <td class="goly_rozdil">-32</td>
+              </tr>
+              <tr class="vysvitit HKR">
+                <td class="poradi">10.</td>
+                <td class="tym">HBC Hradec Králové 1988</td>
+                <td class="zapasy">22</td>
+                <td class="vyhry">5</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">16</td>
+                <td class="body">17</td>
+                <td class="skore">46:84</td>
+                <td class="goly_rozdil">-38</td>
+              </tr>
+              <tr class="DOB">
+                <td class="poradi">11.</td>
+                <td class="tym">TJ Snack Dobřany</td>
+                <td class="zapasy">21</td>
+                <td class="vyhry">4</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">2</td>
+                <td class="prohry">14</td>
+                <td class="body">16</td>
+                <td class="skore">41:75</td>
+                <td class="goly_rozdil">-34</td>
+              </tr>
+              <tr class="vysvitit PRA">
+                <td class="poradi">12.</td>
+                <td class="tym">HBC Prachatice</td>
+                <td class="zapasy">21</td>
+                <td class="vyhry">2</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">17</td>
+                <td class="body">9</td>
+                <td class="skore">42:130</td>
+                <td class="goly_rozdil">-88</td>
+              </tr>
+            </table>
+            <h2>Tabulka "doma"</h2>
+            <table cellspacing="0" cellpadding="0" class="table_hokejbal">
+              <tr>
+                <th class="poradi">P.</th>
+                <th class="tym">
+                  <a href="tabulka.asp?order=tym_jmeno&amp;dir=ASC&amp;liga=&amp;sezona=">Tým</a>
+                </th>
+                <th class="zapasy">
+                  <a href="tabulka.asp?order=zapasy&amp;dir=ASC&amp;liga=&amp;sezona=">Z</a>
+                </th>
+                <th class="vyhry">
+                  <a href="tabulka.asp?order=vyhry&amp;dir=DESC&amp;liga=&amp;sezona=">V</a>
+                </th>
+                <th class="remizy">
+                  <a href="tabulka.asp?order=vyhryP&amp;dir=DESC&amp;liga=&amp;sezona=">VP</a>
+                </th>
+                <th class="prohryP">
+                  <a href="tabulka.asp?order=prohryP&amp;dir=ASC&amp;liga=&amp;sezona=">PP</a>
+                </th>
+                <th class="prohry">
+                  <a href="tabulka.asp?order=prohry&amp;dir=ASC&amp;liga=&amp;sezona=">P</a>
+                </th>
+                <th class="body">
+                  <a href="tabulka.asp?order=body&amp;dir=DESC&amp;liga=&amp;sezona=">B</a>
+                </th>
+                <th class="skore">Skóre</th>
+                <th class="goly_rozdil">
+                  <a href="tabulka.asp?order=goly_rozdil&amp;dir=DESC&amp;liga=&amp;sezona=">RG</a>
+                </th>
+              </tr>
+
+              <tr class="KER">
+                <td class="poradi">1.</td>
+                <td class="tym">HC Kert Park Praha</td>
+                <td class="zapasy">18</td>
+                <td class="vyhry">13</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">4</td>
+                <td class="body">41</td>
+                <td class="skore">91:55</td>
+                <td class="goly_rozdil">36</td>
+              </tr>
+              <tr class="vysvitit HOS">
+                <td class="poradi">2.</td>
+                <td class="tym">HBC Hostivař</td>
+                <td class="zapasy">18</td>
+                <td class="vyhry">13</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">5</td>
+                <td class="body">39</td>
+                <td class="skore">93:44</td>
+                <td class="goly_rozdil">49</td>
+              </tr>
+              <tr class="UNL">
+                <td class="poradi">3.</td>
+                <td class="tym">Elba DDM Ústí nad Labem</td>
+                <td class="zapasy">13</td>
+                <td class="vyhry">9</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">2</td>
+                <td class="body">30</td>
+                <td class="skore">44:27</td>
+                <td class="goly_rozdil">17</td>
+              </tr>
+              <tr class="vysvitit SVP">
+                <td class="poradi">4.</td>
+                <td class="tym">HBC Svítkov Stars Pardubice</td>
+                <td class="zapasy">14</td>
+                <td class="vyhry">8</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">4</td>
+                <td class="body">27</td>
+                <td class="skore">53:40</td>
+                <td class="goly_rozdil">13</td>
+              </tr>
+              <tr class="KLA">
+                <td class="poradi">5.</td>
+                <td class="tym">HBC Kladno</td>
+                <td class="zapasy">13</td>
+                <td class="vyhry">8</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">4</td>
+                <td class="body">25</td>
+                <td class="skore">45:33</td>
+                <td class="goly_rozdil">12</td>
+              </tr>
+              <tr class="vysvitit LET">
+                <td class="poradi">6.</td>
+                <td class="tym">SK Hokejbal Letohrad</td>
+                <td class="zapasy">12</td>
+                <td class="vyhry">6</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">2</td>
+                <td class="prohry">3</td>
+                <td class="body">22</td>
+                <td class="skore">36:25</td>
+                <td class="goly_rozdil">11</td>
+              </tr>
+              <tr class="PCE">
+                <td class="poradi">7.</td>
+                <td class="tym">HBC Pardubice</td>
+                <td class="zapasy">13</td>
+                <td class="vyhry">6</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">6</td>
+                <td class="body">19</td>
+                <td class="skore">54:39</td>
+                <td class="goly_rozdil">15</td>
+              </tr>
+              <tr class="vysvitit KAR">
+                <td class="poradi">8.</td>
+                <td class="tym">HbK Karviná</td>
+                <td class="zapasy">12</td>
+                <td class="vyhry">5</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">6</td>
+                <td class="body">16</td>
+                <td class="skore">39:39</td>
+                <td class="goly_rozdil">0</td>
+              </tr>
+              <tr class="PLZ">
+                <td class="poradi">9.</td>
+                <td class="tym">HBC Plzeň</td>
+                <td class="zapasy">11</td>
+                <td class="vyhry">3</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">3</td>
+                <td class="prohry">5</td>
+                <td class="body">12</td>
+                <td class="skore">33:33</td>
+                <td class="goly_rozdil">0</td>
+              </tr>
+              <tr class="vysvitit HKR">
+                <td class="poradi">10.</td>
+                <td class="tym">HBC Hradec Králové 1988</td>
+                <td class="zapasy">11</td>
+                <td class="vyhry">4</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">7</td>
+                <td class="body">12</td>
+                <td class="skore">27:38</td>
+                <td class="goly_rozdil">-11</td>
+              </tr>
+              <tr class="DOB">
+                <td class="poradi">11.</td>
+                <td class="tym">TJ Snack Dobřany</td>
+                <td class="zapasy">10</td>
+                <td class="vyhry">3</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">6</td>
+                <td class="body">10</td>
+                <td class="skore">24:34</td>
+                <td class="goly_rozdil">-10</td>
+              </tr>
+              <tr class="vysvitit PRA">
+                <td class="poradi">12.</td>
+                <td class="tym">HBC Prachatice</td>
+                <td class="zapasy">11</td>
+                <td class="vyhry">2</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">7</td>
+                <td class="body">9</td>
+                <td class="skore">27:53</td>
+                <td class="goly_rozdil">-26</td>
+              </tr>
+            </table>
+            <h2>Tabulka "venku"</h2>
+            <table cellspacing="0" cellpadding="0" class="table_hokejbal">
+              <tr>
+                <th class="poradi">P.</th>
+                <th class="tym">
+                  <a href="tabulka.asp?order=tym_jmeno&amp;dir=ASC&amp;liga=&amp;sezona=">Tým</a>
+                </th>
+                <th class="zapasy">
+                  <a href="tabulka.asp?order=zapasy&amp;dir=ASC&amp;liga=&amp;sezona=">Z</a>
+                </th>
+                <th class="vyhry">
+                  <a href="tabulka.asp?order=vyhry&amp;dir=DESC&amp;liga=&amp;sezona=">V</a>
+                </th>
+                <th class="remizy">
+                  <a href="tabulka.asp?order=vyhryP&amp;dir=DESC&amp;liga=&amp;sezona=">VP</a>
+                </th>
+                <th class="prohryP">
+                  <a href="tabulka.asp?order=prohryP&amp;dir=ASC&amp;liga=&amp;sezona=">PP</a>
+                </th>
+                <th class="prohry">
+                  <a href="tabulka.asp?order=prohry&amp;dir=ASC&amp;liga=&amp;sezona=">P</a>
+                </th>
+                <th class="body">
+                  <a href="tabulka.asp?order=body&amp;dir=DESC&amp;liga=&amp;sezona=">B</a>
+                </th>
+                <th class="skore">Skóre</th>
+                <th class="goly_rozdil">
+                  <a href="tabulka.asp?order=goly_rozdil&amp;dir=DESC&amp;liga=&amp;sezona=">RG</a>
+                </th>
+              </tr>
+
+              <tr class="HOS">
+                <td class="poradi">1.</td>
+                <td class="tym">HBC Hostivař</td>
+                <td class="zapasy">16</td>
+                <td class="vyhry">13</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">2</td>
+                <td class="body">41</td>
+                <td class="skore">69:38</td>
+                <td class="goly_rozdil">31</td>
+              </tr>
+              <tr class="vysvitit KER">
+                <td class="poradi">2.</td>
+                <td class="tym">HC Kert Park Praha</td>
+                <td class="zapasy">17</td>
+                <td class="vyhry">11</td>
+                <td class="vyhryP">2</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">4</td>
+                <td class="body">37</td>
+                <td class="skore">66:42</td>
+                <td class="goly_rozdil">24</td>
+              </tr>
+              <tr class="UNL">
+                <td class="poradi">3.</td>
+                <td class="tym">Elba DDM Ústí nad Labem</td>
+                <td class="zapasy">12</td>
+                <td class="vyhry">8</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">4</td>
+                <td class="body">24</td>
+                <td class="skore">47:27</td>
+                <td class="goly_rozdil">20</td>
+              </tr>
+              <tr class="vysvitit SVP">
+                <td class="poradi">4.</td>
+                <td class="tym">HBC Svítkov Stars Pardubice</td>
+                <td class="zapasy">15</td>
+                <td class="vyhry">6</td>
+                <td class="vyhryP">2</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">6</td>
+                <td class="body">23</td>
+                <td class="skore">52:50</td>
+                <td class="goly_rozdil">2</td>
+              </tr>
+              <tr class="PCE">
+                <td class="poradi">5.</td>
+                <td class="tym">HBC Pardubice</td>
+                <td class="zapasy">15</td>
+                <td class="vyhry">5</td>
+                <td class="vyhryP">3</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">7</td>
+                <td class="body">21</td>
+                <td class="skore">45:52</td>
+                <td class="goly_rozdil">-7</td>
+              </tr>
+              <tr class="vysvitit KLA">
+                <td class="poradi">6.</td>
+                <td class="tym">HBC Kladno</td>
+                <td class="zapasy">12</td>
+                <td class="vyhry">5</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">2</td>
+                <td class="prohry">5</td>
+                <td class="body">17</td>
+                <td class="skore">35:31</td>
+                <td class="goly_rozdil">4</td>
+              </tr>
+              <tr class="LET">
+                <td class="poradi">7.</td>
+                <td class="tym">SK Hokejbal Letohrad</td>
+                <td class="zapasy">13</td>
+                <td class="vyhry">5</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">8</td>
+                <td class="body">15</td>
+                <td class="skore">46:54</td>
+                <td class="goly_rozdil">-8</td>
+              </tr>
+              <tr class="vysvitit KAR">
+                <td class="poradi">8.</td>
+                <td class="tym">HbK Karviná</td>
+                <td class="zapasy">13</td>
+                <td class="vyhry">3</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">9</td>
+                <td class="body">11</td>
+                <td class="skore">34:61</td>
+                <td class="goly_rozdil">-27</td>
+              </tr>
+              <tr class="DOB">
+                <td class="poradi">9.</td>
+                <td class="tym">TJ Snack Dobřany</td>
+                <td class="zapasy">11</td>
+                <td class="vyhry">1</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">8</td>
+                <td class="body">6</td>
+                <td class="skore">17:41</td>
+                <td class="goly_rozdil">-24</td>
+              </tr>
+              <tr class="vysvitit PLZ">
+                <td class="poradi">10.</td>
+                <td class="tym">HBC Plzeň</td>
+                <td class="zapasy">11</td>
+                <td class="vyhry">1</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">1</td>
+                <td class="prohry">8</td>
+                <td class="body">6</td>
+                <td class="skore">15:47</td>
+                <td class="goly_rozdil">-32</td>
+              </tr>
+              <tr class="HKR">
+                <td class="poradi">11.</td>
+                <td class="tym">HBC Hradec Králové 1988</td>
+                <td class="zapasy">11</td>
+                <td class="vyhry">1</td>
+                <td class="vyhryP">1</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">9</td>
+                <td class="body">5</td>
+                <td class="skore">19:46</td>
+                <td class="goly_rozdil">-27</td>
+              </tr>
+              <tr class="vysvitit PRA">
+                <td class="poradi">12.</td>
+                <td class="tym">HBC Prachatice</td>
+                <td class="zapasy">10</td>
+                <td class="vyhry">0</td>
+                <td class="vyhryP">0</td>
+                <td class="prohryP">0</td>
+                <td class="prohry">10</td>
+                <td class="body">0</td>
+                <td class="skore">15:77</td>
+                <td class="goly_rozdil">-62</td>
+              </tr>
+            </table>
+
+            <h2>Legenda tabulky</h2>
+            <p>
+              <strong>P</strong> - Pořadí<br />
+              <strong>Z</strong> - Zápasy<br />
+              <strong>V</strong> - Výhry<br />
+              <strong>VP</strong> - Výhry v prodloužení<br />
+              <strong>PP</strong> - Prohry v prodloužení<br />
+              <strong>P</strong> - Prohry<br />
+              <strong>Skóre</strong> - vstřelené góly: obdržené góly<br />
+              <strong>RG</strong> - Rozdíl gólů<br />
+              <strong>B</strong> - Body<br />
+            </p>
+
+            <!-- hlavni text konec-->
+          </div>
+        </div>
+
+        <div class="col-md-4 sidebar">
+          <div class="box box-other">
+            <h2 class="title">Muži A</h2>
+            <div class="inner">
+              <ul class="more-articles">
+                <li><a href="druzstva.asp?sezona=2024&kategorie=MUZ">Zpravodajství</a></li>
+                <li><a href="zapas.asp?sezona=2024MUZ&kategorie=MUZ">Zápasy a výsledky</a></li>
+                <li><a href="soupiska.asp?sezona=2024MUZ&kategorie=MUZ">Soupiska</a></li>
+                <li><a href="tabulka.asp?sezona=2024MUZ&kategorie=MUZ">Tabulka</a></li>
+                <li><a href="statistiky.asp?sezona=2024MUZ&kategorie=MUZ">Statistiky</a></li>
+                <li><a href="zobraz.asp?t=realizacni-tym">Realizační tým</a></li>
+                <li><a href="zobraz.asp?t=historie-umisteni">Historie umístění</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box box-facebook">
+            <h2 style="margin-top: 0px" class="title">Facebook</h2>
+            <div class="inner">
+              <iframe
+                data-cookiecategory="social"
+                type="text/plain"
+                data-placeholder
+                data-src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F39809923574&amp;width=620&amp;height=512&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=487130854754038"
+                scrolling="no"
+                frameborder="0"
+                style="border: none; overflow: hidden; width: 100%; height: 512px"
+                allowTransparency="true"
+              ></iframe>
+            </div>
+          </div>
+          <div class="box box-other">
+            <h2 class="title">Tabulka</h2>
+            <div class="inner">Tabulka není k dispozici</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="articles">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ve-finale-nezvitezil-ani-na-potreti--V-regionalni-soutezi-tak-opet-bere-stribro--1808"
+            title="Přečíst článek: B tým mužů ve finále nezvítězil ani na potřetí! V regionální soutěži tak opět bere stříbro!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ve finále nezvítězil ani na potřetí! V regionální soutěži tak opět bere
+                stříbro!
+              </h2>
+              <p class="date">9.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ztratil-i-treti-finalove-utkani--O-prodlouzeni-serie-bude-bojovat-hned-zitra--1807"
+            title="Přečíst článek: B tým mužů ztratil i třetí finálové utkání! O prodloužení série bude bojovat hned zítra!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ztratil i třetí finálové utkání! O prodloužení série bude bojovat hned
+                zítra!
+              </h2>
+              <p class="date">8.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=Hostivar-ztratila-tribrankove-vedeni-a-je-vicemistrem-republiky--1800"
+            title="Přečíst článek: Hostivař ztratila tříbrankové vedení a je vicemistrem republiky!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>Hostivař ztratila tříbrankové vedení a je vicemistrem republiky!</h2>
+              <p class="date">8.6.2024</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 article">
+          <a
+            href="zapas.asp?id=B-tym-muzu-ve-druhem-finale-tesne-padl-Rafanum--Serie-se-nyni-presouva-do-Hostivare--1806"
+            title="Přečíst článek: B tým mužů ve druhém finále těsně padl Rafanům! Série se nyní přesouvá do Hostivaře!"
+          >
+            <div class="img">
+              <img src="images/post.jpeg" />
+            </div>
+            <div class="info">
+              <h2>
+                B tým mužů ve druhém finále těsně padl Rafanům! Série se nyní přesouvá do Hostivaře!
+              </h2>
+              <p class="date">6.6.2024</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="partners">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Partneři klubu</h3>
+          <ul>
+            <li>
+              <a href="https://www.prakab.cz" target="_blank"
+                ><img src="images/partner-5.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.decathlon.cz/" target="_blank"
+                ><img src="images/partner-3.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://bearings.cz/" target="_blank"
+                ><img src="images/partner-2.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.pivovar-hostivar.cz/" target="_blank"
+                ><img src="images/partner-6.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.etool.cz/" target="_blank"
+                ><img src="images/partner-1.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.madointerier.cz/" target="_blank"
+                ><img src="images/partner-5.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.dimar.cz" target="_blank"
+                ><img src="images/partner-4.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.sklenarstvikk.cz/" target="_blank"
+                ><img src="images/partner-3.png" class="main-partner"
+              /></a>
+            </li>
+            <li>
+              <a href="www.datascript.cz/" target="_blank"
+                ><img src="images/partner-2.png" class="main-partner"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p id="copyright">
+      © HBC Most, 2005—2024. Vyrobeno v <a href="">eSports.cz</a> |
+      <a href="javascript:void(0);" data-cc="c-settings" aria-haspopup="dialog"
+        >Nastavení cookies</a
+      >
+    </p>
+
+    <script src="js/main.js"></script>
+    <div id="fb-root"></div>
+    <script
+      data-cookiecategory="social"
+      type="text/plain"
+      src="https://connect.facebook.net/cs_CZ/all.js#xfbml=1"
+      type="text/javascript"
+    ></script>
+    <script data-cookiecategory="social" type="text/plain">
+      window.fbAsyncInit = function() {
+        FB.init({appId: '1402160113440270', status: true, cookie: true,
+                 xfbml: true});
+      };
+      (function() {
+        var e = document.createElement('script'); e.async = true;
+        e.src = document.location.protocol +
+          '//connect.facebook.net/cs_CZ/all.js';
+        document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      {lang: 'cs'}
+    </script>
+
+    <link rel="stylesheet" href="https://consent.esports.cz/theme.asp?v=2&accent=1F2F5E" />
+    <script src="https://consent.esports.cz/config.asp?v=2&c=analytics,social&web="></script>
+    <script src="https://consent.esports.cz/main.js?v=2"></script>
+    <script
+      type="text/plain"
+      data-cookiecategory="social"
+      src="https://consent.esports.cz/social-media2.js?v=2"
+    ></script>
+  </body>
+</html>
