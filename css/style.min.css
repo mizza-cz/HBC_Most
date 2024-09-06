@@ -7078,6 +7078,7 @@ table {
 #nav-menu .nav .open > a:focus {
   background: transparent;
 }
+#nav-menu .link,
 #nav-menu .hoverfx {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -7086,6 +7087,7 @@ table {
   text-transform: uppercase;
   text-shadow: none;
 }
+#nav-menu .link:before,
 #nav-menu .hoverfx::before {
   position: absolute;
   top: 0;
@@ -7102,6 +7104,8 @@ table {
   -moz-transform: translateY(-10px);
   transform: translateY(-10px);
 }
+#nav-menu .link:hover:before,
+#nav-menu .link:focus:before,
 #nav-menu .hoverfx:focus::before,
 #nav-menu .hoverfx:hover::before {
   height: 5px;
@@ -7110,6 +7114,8 @@ table {
   -moz-transform: translateY(0px);
   transform: translateY(0px);
 }
+#nav-menu .link:hover:before,
+#nav-menu .link:focus:before,
 #nav-menu .hoverfx:focus::before,
 #nav-menu .hoverfx:hover::before {
   height: 5px;
@@ -7118,6 +7124,7 @@ table {
   -moz-transform: translateY(0px);
   transform: translateY(0px);
 }
+#nav-menu .link:after,
 #nav-menu .hoverfx::after {
   position: absolute;
   bottom: -10px;
@@ -7135,6 +7142,9 @@ table {
   transform: translateY(-10px);
   z-index: 100000;
 }
+
+#nav-menu .link:hover:after,
+#nav-menu .link:focus:after,
 #nav-menu .hoverfx:focus::after,
 #nav-menu .hoverfx:hover::after {
   height: 10px;
@@ -7143,6 +7153,9 @@ table {
   -moz-transform: translateY(0px);
   transform: translateY(0px);
 }
+
+#nav-menu .link:hover:after,
+#nav-menu .link:focus:after,
 #nav-menu .hoverfx:focus::after,
 #nav-menu .hoverfx:hover::after {
   height: 10px;
