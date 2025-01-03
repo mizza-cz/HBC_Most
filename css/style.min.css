@@ -7389,15 +7389,15 @@ table {
   font-weight: 300;
 }
 #banners .nabor {
-  background: url('/img/nabor.png') #ffe53f;
+  background: url('../images/nabor.png') #ffe53f;
   background-repeat: no-repeat;
 }
 #banners .youtube {
-  background: url('/img/youtube.png') #ec2e30;
+  background: url('../images/youtube.png') #ec2e30;
   background-repeat: no-repeat;
 }
 #banners .fotogalerie {
-  background: url('/img/fotogalerie.png') #194578;
+  background: url('../images/fotogalerie.png') #194578;
   background-repeat: no-repeat;
 }
 #banners .block-link {
