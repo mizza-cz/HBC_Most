@@ -8523,3 +8523,6 @@ pre {
   font-weight: 500;
   font-style: normal;
 }
+#photos td {
+  padding: 4px;
+}
