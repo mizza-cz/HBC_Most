@@ -1559,16 +1559,7 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
+
 @media (min-width: 1200px) {
   .container {
     width: 1260px;
@@ -3600,7 +3591,7 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar-right .dropdown-menu {
     left: auto;
     right: 0;
@@ -4132,12 +4123,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar {
     border-radius: 4px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar-header {
     float: left;
   }
@@ -4153,7 +4144,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4277,7 +4268,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar-toggle {
     display: none;
   }
@@ -4290,7 +4281,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1140px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -4312,7 +4303,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -4336,7 +4327,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
@@ -4386,7 +4377,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     top: 0;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1139px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -4394,7 +4385,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-bottom: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar-form {
     width: auto;
     border: 0;
@@ -4434,14 +4425,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar-text {
     float: left;
     margin-left: 15px;
     margin-right: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1140px) {
   .navbar-left {
     float: left !important;
   }
@@ -4508,7 +4499,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #e7e7e7;
   color: #555555;
 }
-@media (max-width: 767px) {
+@media (max-width: 1139px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
@@ -4604,7 +4595,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #080808;
   color: #ffffff;
 }
-@media (max-width: 767px) {
+@media (max-width: 1139px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
@@ -6784,7 +6775,7 @@ button.close {
     display: inline-block !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1139px) {
   .hidden-xs {
     display: none !important;
   }
@@ -6871,7 +6862,7 @@ table {
     display: block;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1140px) {
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     background: #002c5a;
@@ -7004,7 +6995,7 @@ table {
     padding: 10px 9px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1140px) {
   .navbar-toggle {
     background: #002c5a;
     margin-top: 12px;
@@ -7046,12 +7037,14 @@ table {
     margin-top: 28px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1140px) {
   #nav-logo .navbar-brand-centered img {
-    width: 95px;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 132px;
+    height: 100px;
     margin-right: 0;
+    left: 0;
+    margin-left: -10px;
+    margin-top: -6px;
   }
 }
 .nav-yellow {
@@ -7821,7 +7814,7 @@ table {
   font-weight: 600;
 }
 #article .text .inner .match-info .info {
-  display: table;
+  display: flex;
   width: 100%;
   text-align: center;
 }
@@ -7832,12 +7825,15 @@ table {
 }
 #article .text .inner .match-info .info .team1,
 #article .text .inner .match-info .info .team2 {
-  display: table-cell;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
   width: 40%;
   color: #002c5a;
   font-size: 13px;
   font-weight: 400;
-  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
 }
 #article .text .inner .match-info .info .team1 .inline,
 #article .text .inner .match-info .info .team2 .inline {
@@ -7857,16 +7853,17 @@ table {
 #article .text .inner .match-info .info .team1 .team-name,
 #article .text .inner .match-info .info .team2 .team-name {
   vertical-align: top;
-  width: 50%;
+  text-align: center;
 }
 #article .text .inner .match-info .info .score {
   color: #002c5a;
   font-size: 48px;
   font-weight: 700;
-  width: 95%;
+  max-width: 150px;
   border: 2px solid #002c5a;
   border-radius: 100%;
   padding: 25px;
+  width: 100%;
 }
 #article .text .inner .match-info .info .score .periods {
   color: #002c5a;
@@ -7874,19 +7871,14 @@ table {
   font-weight: 400;
 }
 #article .text .inner .match-info .info .team1 .inline {
-  float: left;
-  text-align: left;
+  display: flex;
 }
-#article .text .inner .match-info .info .team1 .inline p {
-  margin-left: 30px;
-}
+
 #article .text .inner .match-info .info .team2 .inline {
   float: right;
   text-align: left;
 }
-#article .text .inner .match-info .info .team2 .inline p {
-  margin-right: 30px;
-}
+
 #article .text .inner .match-info .more-info {
   text-align: left;
   color: #002c5a;
@@ -8494,14 +8486,19 @@ pre {
 .cover_main table.cover_table tr td img {
   max-width: 80%;
 }
-
+@media (max-width: 768px) {
+  #article .text .inner .match-info .info {
+    align-items: baseline;
+  }
+}
 @media (max-width: 400px) {
   #article .text .inner .match-info .info {
-    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-  #article .text .inner .match-info .info .team2 .inline p {
-    margin-left: 30px;
-    margin-right: 0;
+  #article .text .inner .match-info .info .score {
+    order: -1;
+    max-width: 100%;
   }
 }
 
